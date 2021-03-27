@@ -1,0 +1,468 @@
+INFO  18:39:36,752 - Compiling source file :D:\Helper\PetarKolich\PP1\test\test.mj
+INFO  18:39:36,757 - ====================== Performing Syntax Check ======================
+INFO  18:39:36,771 - #2 program
+INFO  18:39:36,771 - #3 test301
+INFO  18:39:36,771 - #3 int
+INFO  18:39:36,772 - #3 niz
+INFO  18:39:36,772 - #6 [
+INFO  18:39:36,772 - #7 ]
+INFO  18:39:36,772 - #12 ;
+INFO  18:39:36,773 - #10 const
+INFO  18:39:36,773 - #3 int
+INFO  18:39:36,773 - #3 x
+INFO  18:39:36,774 - #11 =
+INFO  18:39:36,774 - #14 5
+INFO  18:39:36,774 - #13 ,
+INFO  18:39:36,774 - #3 z
+INFO  18:39:36,774 - #11 =
+INFO  18:39:36,774 - #14 6
+INFO  18:39:36,774 - #13 ,
+INFO  18:39:36,774 - #3 k
+INFO  18:39:36,774 - #11 =
+INFO  18:39:36,775 - #16 A
+INFO  18:39:36,775 - #12 ;
+INFO  18:39:36,775 - #10 const
+INFO  18:39:36,776 - #3 zaba
+INFO  18:39:36,776 - #3 zz
+INFO  18:39:36,776 - #11 =
+INFO  18:39:36,776 - #14 2
+INFO  18:39:36,776 - #12 ;
+INFO  18:39:36,776 - #4 {
+INFO  18:39:36,776 - #17 void
+INFO  18:39:36,777 - #3 main
+INFO  18:39:36,777 - #8 (
+INFO  18:39:36,777 - #9 )
+INFO  18:39:36,777 - #4 {
+INFO  18:39:36,778 - #3 niz
+INFO  18:39:36,778 - #6 [
+INFO  18:39:36,778 - #3 x
+INFO  18:39:36,779 - #7 ]
+INFO  18:39:36,781 - #20 ++
+INFO  18:39:36,781 - #12 ;
+INFO  18:39:36,781 - #3 niz
+INFO  18:39:36,781 - #11 =
+INFO  18:39:36,781 - #23 new
+INFO  18:39:36,781 - #3 int
+INFO  18:39:36,781 - #6 [
+INFO  18:39:36,781 - #14 5
+INFO  18:39:36,782 - #7 ]
+INFO  18:39:36,782 - #12 ;
+INFO  18:39:36,782 - #3 x
+INFO  18:39:36,782 - #11 =
+INFO  18:39:36,782 - #3 x
+INFO  18:39:36,782 - #28 +=
+INFO  18:39:36,782 - #14 2
+INFO  18:39:36,783 - #12 ;
+INFO  18:39:36,783 - #3 x
+INFO  18:39:36,783 - #11 =
+INFO  18:39:36,783 - #14 2
+INFO  18:39:36,783 - #12 ;
+INFO  18:39:36,783 - #3 niz
+INFO  18:39:36,783 - #6 [
+INFO  18:39:36,783 - #14 0
+INFO  18:39:36,783 - #7 ]
+INFO  18:39:36,783 - #11 =
+INFO  18:39:36,783 - #3 x
+INFO  18:39:36,784 - #12 ;
+INFO  18:39:36,784 - #3 x
+INFO  18:39:36,784 - #11 =
+INFO  18:39:36,784 - #8 (
+INFO  18:39:36,784 - #8 (
+INFO  18:39:36,784 - #8 (
+INFO  18:39:36,784 - #14 2
+INFO  18:39:36,784 - #24 +
+INFO  18:39:36,784 - #14 3
+INFO  18:39:36,785 - #9 )
+INFO  18:39:36,785 - #25 *
+INFO  18:39:36,785 - #14 8
+INFO  18:39:36,785 - #9 )
+INFO  18:39:36,785 - #25 *
+INFO  18:39:36,786 - #16 A
+INFO  18:39:36,786 - #9 )
+INFO  18:39:36,786 - #24 +
+INFO  18:39:36,786 - #16 Z
+INFO  18:39:36,786 - #12 ;
+INFO  18:39:36,786 - #5 }
+INFO  18:39:36,786 - #5 }
+INFO  18:39:36,794 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ConstVarDeclRepeatConst(
+    ConstVarDeclRepeatConst(
+      ConstVarDeclRepeatVar(
+        ConstVarDeclRepeatEmpty(
+        ) [ConstVarDeclRepeatEmpty]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         niz
+          OptArrayNonEmpty(
+          ) [OptArrayNonEmpty]
+          VarDefRepeatEmpty(
+          ) [VarDefRepeatEmpty]
+        ) [VarDecl]
+      ) [ConstVarDeclRepeatVar]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+       x
+        NumConstValue(
+         5
+        ) [NumConstValue]
+        ConstDefRepeatNonEmpty(
+          ConstDefRepeatNonEmpty(
+            ConstDefRepeatEmpty(
+            ) [ConstDefRepeatEmpty]
+           z
+            NumConstValue(
+             6
+            ) [NumConstValue]
+          ) [ConstDefRepeatNonEmpty]
+         k
+          CharConstValue(
+           A
+          ) [CharConstValue]
+        ) [ConstDefRepeatNonEmpty]
+      ) [ConstDecl]
+    ) [ConstVarDeclRepeatConst]
+    ConstDecl(
+      Type(
+       zaba
+      ) [Type]
+     zz
+      NumConstValue(
+       2
+      ) [NumConstValue]
+      ConstDefRepeatEmpty(
+      ) [ConstDefRepeatEmpty]
+    ) [ConstDecl]
+  ) [ConstVarDeclRepeatConst]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclRepeatEmpty(
+    ) [VarDeclRepeatEmpty]
+    StatementRepeatNonEmpty(
+      StatementRepeatNonEmpty(
+        StatementRepeatNonEmpty(
+          StatementRepeatNonEmpty(
+            StatementRepeatNonEmpty(
+              StatementRepeatNonEmpty(
+                StatementRepeatEmpty(
+                ) [StatementRepeatEmpty]
+                StatementDesignatorStatement(
+                  DesignatorStatementInc(
+                    DesignatorArrElement(
+                     niz
+                      Expr(
+                        OptMinusEmpty(
+                        ) [OptMinusEmpty]
+                        Term(
+                          FactorDesignator(
+                            DesignatorVar(
+                             x
+                            ) [DesignatorVar]
+                          ) [FactorDesignator]
+                          MulopFactorRepeatEmpty(
+                          ) [MulopFactorRepeatEmpty]
+                        ) [Term]
+                        AddopTermRepeatEmpty(
+                        ) [AddopTermRepeatEmpty]
+                      ) [Expr]
+                    ) [DesignatorArrElement]
+                  ) [DesignatorStatementInc]
+                ) [StatementDesignatorStatement]
+              ) [StatementRepeatNonEmpty]
+              StatementDesignatorStatement(
+                DesignatorStatementAssignop(
+                  DesignatorVar(
+                   niz
+                  ) [DesignatorVar]
+                  AssignopEqual(
+                  ) [AssignopEqual]
+                  Expr(
+                    OptMinusEmpty(
+                    ) [OptMinusEmpty]
+                    Term(
+                      FactorNewArray(
+                        Type(
+                         int
+                        ) [Type]
+                        Expr(
+                          OptMinusEmpty(
+                          ) [OptMinusEmpty]
+                          Term(
+                            FactorConstValue(
+                              NumConstValue(
+                               5
+                              ) [NumConstValue]
+                            ) [FactorConstValue]
+                            MulopFactorRepeatEmpty(
+                            ) [MulopFactorRepeatEmpty]
+                          ) [Term]
+                          AddopTermRepeatEmpty(
+                          ) [AddopTermRepeatEmpty]
+                        ) [Expr]
+                      ) [FactorNewArray]
+                      MulopFactorRepeatEmpty(
+                      ) [MulopFactorRepeatEmpty]
+                    ) [Term]
+                    AddopTermRepeatEmpty(
+                    ) [AddopTermRepeatEmpty]
+                  ) [Expr]
+                ) [DesignatorStatementAssignop]
+              ) [StatementDesignatorStatement]
+            ) [StatementRepeatNonEmpty]
+            StatementDesignatorStatement(
+              DesignatorStatementAssignop(
+                DesignatorVar(
+                 x
+                ) [DesignatorVar]
+                AssignopEqual(
+                ) [AssignopEqual]
+                Expr(
+                  OptMinusEmpty(
+                  ) [OptMinusEmpty]
+                  Term(
+                    FactorDesignator(
+                      DesignatorVar(
+                       x
+                      ) [DesignatorVar]
+                    ) [FactorDesignator]
+                    MulopFactorRepeatEmpty(
+                    ) [MulopFactorRepeatEmpty]
+                  ) [Term]
+                  AddopTermRepeatNonEmpty(
+                    AddopTermRepeatEmpty(
+                    ) [AddopTermRepeatEmpty]
+                    AddopAddopRight(
+                      AddopRightAdd(
+                      ) [AddopRightAdd]
+                    ) [AddopAddopRight]
+                    Term(
+                      FactorConstValue(
+                        NumConstValue(
+                         2
+                        ) [NumConstValue]
+                      ) [FactorConstValue]
+                      MulopFactorRepeatEmpty(
+                      ) [MulopFactorRepeatEmpty]
+                    ) [Term]
+                  ) [AddopTermRepeatNonEmpty]
+                ) [Expr]
+              ) [DesignatorStatementAssignop]
+            ) [StatementDesignatorStatement]
+          ) [StatementRepeatNonEmpty]
+          StatementDesignatorStatement(
+            DesignatorStatementAssignop(
+              DesignatorVar(
+               x
+              ) [DesignatorVar]
+              AssignopEqual(
+              ) [AssignopEqual]
+              Expr(
+                OptMinusEmpty(
+                ) [OptMinusEmpty]
+                Term(
+                  FactorConstValue(
+                    NumConstValue(
+                     2
+                    ) [NumConstValue]
+                  ) [FactorConstValue]
+                  MulopFactorRepeatEmpty(
+                  ) [MulopFactorRepeatEmpty]
+                ) [Term]
+                AddopTermRepeatEmpty(
+                ) [AddopTermRepeatEmpty]
+              ) [Expr]
+            ) [DesignatorStatementAssignop]
+          ) [StatementDesignatorStatement]
+        ) [StatementRepeatNonEmpty]
+        StatementDesignatorStatement(
+          DesignatorStatementAssignop(
+            DesignatorArrElement(
+             niz
+              Expr(
+                OptMinusEmpty(
+                ) [OptMinusEmpty]
+                Term(
+                  FactorConstValue(
+                    NumConstValue(
+                     0
+                    ) [NumConstValue]
+                  ) [FactorConstValue]
+                  MulopFactorRepeatEmpty(
+                  ) [MulopFactorRepeatEmpty]
+                ) [Term]
+                AddopTermRepeatEmpty(
+                ) [AddopTermRepeatEmpty]
+              ) [Expr]
+            ) [DesignatorArrElement]
+            AssignopEqual(
+            ) [AssignopEqual]
+            Expr(
+              OptMinusEmpty(
+              ) [OptMinusEmpty]
+              Term(
+                FactorDesignator(
+                  DesignatorVar(
+                   x
+                  ) [DesignatorVar]
+                ) [FactorDesignator]
+                MulopFactorRepeatEmpty(
+                ) [MulopFactorRepeatEmpty]
+              ) [Term]
+              AddopTermRepeatEmpty(
+              ) [AddopTermRepeatEmpty]
+            ) [Expr]
+          ) [DesignatorStatementAssignop]
+        ) [StatementDesignatorStatement]
+      ) [StatementRepeatNonEmpty]
+      StatementDesignatorStatement(
+        DesignatorStatementAssignop(
+          DesignatorVar(
+           x
+          ) [DesignatorVar]
+          AssignopEqual(
+          ) [AssignopEqual]
+          Expr(
+            OptMinusEmpty(
+            ) [OptMinusEmpty]
+            Term(
+              FactorParenExpr(
+                Expr(
+                  OptMinusEmpty(
+                  ) [OptMinusEmpty]
+                  Term(
+                    FactorParenExpr(
+                      Expr(
+                        OptMinusEmpty(
+                        ) [OptMinusEmpty]
+                        Term(
+                          FactorParenExpr(
+                            Expr(
+                              OptMinusEmpty(
+                              ) [OptMinusEmpty]
+                              Term(
+                                FactorConstValue(
+                                  NumConstValue(
+                                   2
+                                  ) [NumConstValue]
+                                ) [FactorConstValue]
+                                MulopFactorRepeatEmpty(
+                                ) [MulopFactorRepeatEmpty]
+                              ) [Term]
+                              AddopTermRepeatNonEmpty(
+                                AddopTermRepeatEmpty(
+                                ) [AddopTermRepeatEmpty]
+                                AddopAddopLeft(
+                                  AddopLeftAdd(
+                                  ) [AddopLeftAdd]
+                                ) [AddopAddopLeft]
+                                Term(
+                                  FactorConstValue(
+                                    NumConstValue(
+                                     3
+                                    ) [NumConstValue]
+                                  ) [FactorConstValue]
+                                  MulopFactorRepeatEmpty(
+                                  ) [MulopFactorRepeatEmpty]
+                                ) [Term]
+                              ) [AddopTermRepeatNonEmpty]
+                            ) [Expr]
+                          ) [FactorParenExpr]
+                          MulopFactorRepeatNonEmpty(
+                            MulopFactorRepeatEmpty(
+                            ) [MulopFactorRepeatEmpty]
+                            MulopMulopLeft(
+                              MulopLeftMul(
+                              ) [MulopLeftMul]
+                            ) [MulopMulopLeft]
+                            FactorConstValue(
+                              NumConstValue(
+                               8
+                              ) [NumConstValue]
+                            ) [FactorConstValue]
+                          ) [MulopFactorRepeatNonEmpty]
+                        ) [Term]
+                        AddopTermRepeatEmpty(
+                        ) [AddopTermRepeatEmpty]
+                      ) [Expr]
+                    ) [FactorParenExpr]
+                    MulopFactorRepeatNonEmpty(
+                      MulopFactorRepeatEmpty(
+                      ) [MulopFactorRepeatEmpty]
+                      MulopMulopLeft(
+                        MulopLeftMul(
+                        ) [MulopLeftMul]
+                      ) [MulopMulopLeft]
+                      FactorConstValue(
+                        CharConstValue(
+                         A
+                        ) [CharConstValue]
+                      ) [FactorConstValue]
+                    ) [MulopFactorRepeatNonEmpty]
+                  ) [Term]
+                  AddopTermRepeatEmpty(
+                  ) [AddopTermRepeatEmpty]
+                ) [Expr]
+              ) [FactorParenExpr]
+              MulopFactorRepeatEmpty(
+              ) [MulopFactorRepeatEmpty]
+            ) [Term]
+            AddopTermRepeatNonEmpty(
+              AddopTermRepeatEmpty(
+              ) [AddopTermRepeatEmpty]
+              AddopAddopLeft(
+                AddopLeftAdd(
+                ) [AddopLeftAdd]
+              ) [AddopAddopLeft]
+              Term(
+                FactorConstValue(
+                  CharConstValue(
+                   Z
+                  ) [CharConstValue]
+                ) [FactorConstValue]
+                MulopFactorRepeatEmpty(
+                ) [MulopFactorRepeatEmpty]
+              ) [Term]
+            ) [AddopTermRepeatNonEmpty]
+          ) [Expr]
+        ) [DesignatorStatementAssignop]
+      ) [StatementDesignatorStatement]
+    ) [StatementRepeatNonEmpty]
+  ) [MethodDecl]
+) [Program]
+INFO  18:39:36,800 - ====================== Performing Semantic Check ======================
+ERROR 18:39:36,806 - CharConstValue(
+ A
+) [CharConstValue] Greska!Ocekivan tip sa desne strane konstante je :int!
+ERROR 18:39:36,806 - mjcompiler.ast.Type@475530b9 Greska! Ne postoji tip podatka zaba
+ERROR 18:39:36,806 - NumConstValue(
+ 2
+) [NumConstValue] Tip konstante mora biti int/char/bool!
+ERROR 18:39:36,806 - DesignatorVar(
+ x
+) [DesignatorVar] x nije promenljiva!
+ERROR 18:39:36,807 - DesignatorVar(
+ x
+) [DesignatorVar] x nije promenljiva!
+ERROR 18:39:36,807 - DesignatorVar(
+ x
+) [DesignatorVar] x nije promenljiva!
+ERROR 18:39:36,807 - DesignatorVar(
+ x
+) [DesignatorVar] x nije promenljiva!
+ERROR 18:39:36,807 - DesignatorVar(
+ x
+) [DesignatorVar] x nije promenljiva!
+ERROR 18:39:36,807 - DesignatorVar(
+ x
+) [DesignatorVar] x nije promenljiva!
+ERROR 18:39:36,807 - mjcompiler.ast.Term@1d057a39 {+,-,*,/,%} operatori su moguci samo nad operandima tipa int!
+ERROR 18:39:36,808 - mjcompiler.ast.Expr@26be92ad {+,-,*,/,%} operatori su moguci samo nad operandima tipa int!
+ERROR 18:39:36,808 - Semanticka greska! Prevodjenje se ne moze nastaviti

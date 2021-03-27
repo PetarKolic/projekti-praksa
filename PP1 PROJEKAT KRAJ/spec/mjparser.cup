@@ -1,0 +1,209 @@
+package mjcompiler;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+
+// import java.io.*;
+import mjcompiler.ast.*;
+import rs.etf.pp1.symboltable.concepts.Struct;
+parser code {:
+	
+	boolean errorDetected = false;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+    
+    public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+    }
+    
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+
+non terminal Program;
+non terminal ConstVarDeclRepeat;
+non terminal MethodDecl;
+non terminal ConstDecl;
+non terminal VarDecl;
+non terminal Type;
+non terminal ConstValue;
+non terminal ConstDefRepeat;
+non terminal OptArray;
+non terminal VarDefRepeat;
+non terminal StatementRepeat;
+non terminal VarDeclRepeat;
+non terminal OptMinus;
+non terminal DesignatorStatement;
+non terminal OptPrintWidth;
+non terminal rs.etf.pp1.symboltable.concepts.Obj Designator;
+non terminal rs.etf.pp1.symboltable.concepts.Struct Expr;
+non terminal rs.etf.pp1.symboltable.concepts.Struct Expr1;
+non terminal rs.etf.pp1.symboltable.concepts.Struct Term;
+non terminal rs.etf.pp1.symboltable.concepts.Struct AddopTermRepeat;
+non terminal rs.etf.pp1.symboltable.concepts.Struct Factor;
+non terminal rs.etf.pp1.symboltable.concepts.Struct MulopFactorRepeat;
+non terminal Addop;
+non terminal Mulop;
+non terminal Statement;
+non terminal Assignop;
+non terminal AddopRight, MulopRight;
+non terminal AddopLeft, MulopLeft;
+non terminal MethodName;
+non terminal CondFact, Relop;
+non terminal ProgramName;
+non terminal DesignatorVarArr;
+non terminal NegTerm;
+non terminal Colon;
+
+terminal PROGRAM;
+terminal String IDENT;
+terminal LBRACE, RBRACE;
+terminal LSQUARE, RSQUARE;
+terminal LPAREN, RPAREN;
+terminal CONST;
+terminal EQUAL;
+terminal SEMICOLN;
+terminal COMMA;
+terminal Integer   NUM_CONST;
+terminal Boolean   BOOL_CONST;
+terminal Character CHAR_CONST;
+terminal VOID;
+terminal READ;
+terminal PRINT;
+terminal INC;
+terminal DECR;
+terminal SUB;
+terminal NEW;
+terminal ADD;
+terminal MUL;
+terminal DIV;
+terminal MOD;
+terminal ASSGN_ADD, ASSGN_SUB, ASSGN_DIV, ASSGN_MOD, ASSGN_MUL;
+terminal QUESTMARK, COLON;
+terminal EQUALS, NEQUALS, GRT, GRTEQ, LESS, LESSEQ;
+
+Program            ::= (Program)PROGRAM ProgramName ConstVarDeclRepeat LBRACE MethodDecl RBRACE;
+ProgramName        ::= (ProgramName) IDENT:programName;
+MethodDecl         ::= (MethodDecl) VOID MethodName LPAREN RPAREN VarDeclRepeat LBRACE StatementRepeat RBRACE;
+MethodName         ::= (MethodName) IDENT:methodName;
+ConstVarDeclRepeat ::= (ConstVarDeclRepeatVar)   ConstVarDeclRepeat VarDecl
+                     | (ConstVarDeclRepeatConst) ConstVarDeclRepeat ConstDecl
+                     | (ConstVarDeclRepeatEmpty) /* empty */
+                     ;
+
+ConstDecl      ::= (ConstDecl) CONST Type IDENT:constName EQUAL ConstValue ConstDefRepeat SEMICOLN;
+ConstValue     ::= (NumConstValue)  NUM_CONST:numConst
+                 | (BoolConstValue) BOOL_CONST:boolConst
+                 | (CharConstValue) CHAR_CONST:charConst
+                 ;
+
+ConstDefRepeat ::= (ConstDefRepeatNonEmpty) ConstDefRepeat COMMA IDENT:constName EQUAL ConstValue
+                 | (ConstDefRepeatEmpty)    /* empty */
+                 ;
+
+VarDecl       ::= (VarDecl) Type IDENT:varName OptArray VarDefRepeat SEMICOLN;
+VarDeclRepeat ::= (VarDeclRepeatNonEmpty) VarDeclRepeat VarDecl
+                | (VarDeclRepeatEmpty)    /* empty */
+                ;
+Type          ::= (Type) IDENT:typeName;
+OptArray      ::= (OptArrayNonEmpty) LSQUARE RSQUARE
+                | (OptArrayEmpty)    /* empty */
+                ;
+VarDefRepeat  ::= (VarDefRepeatNonEmpty) VarDefRepeat COMMA IDENT:varName OptArray
+                | (VarDefRepeatEmpty)    /* empty */
+                ;
+
+StatementRepeat ::= (StatementRepeatNonEmpty) StatementRepeat Statement
+                  | (StatementRepeatEmpty)    /* empty */
+                  ;
+Statement       ::= (StatementDesignatorStatement) DesignatorStatement SEMICOLN
+                  | (StatementRead)                READ LPAREN Designator RPAREN SEMICOLN
+                  | (StatementPrint)               PRINT LPAREN Expr OptPrintWidth RPAREN SEMICOLN
+                  ;
+OptPrintWidth ::= (OptPrintWithNonEmpty) COMMA NUM_CONST:num | (OptPrintWidthEmpty) /* empty */;
+
+DesignatorStatement ::= (DesignatorStatementAssignop) Designator Assignop Expr
+                      | (DesignatorStatementInc)      Designator INC
+                      | (DesignatorStatementDecr)     Designator DECR
+                      ;
+
+
+DesignatorVarArr ::= (DesignatorVarArr) IDENT:varName;
+Designator ::= (DesignatorVar)        IDENT:varName
+             | (DesignatorArrElement) DesignatorVarArr LSQUARE Expr RSQUARE
+             ;
+
+OptMinus ::= (OptMinusNonEmpty) SUB
+           | (OptMinusEmpty)    /* empty */
+           ;
+
+CondFact ::= (CondFactSingle)Expr1 | (CondFactCompare) Expr1 Relop Expr1;
+Relop ::= (RelopEquals)EQUALS | (RelopNequals)NEQUALS | (RelopGrt)GRT | (RelopGrteq)GRTEQ | (RelopLess)LESS | (RelopLesseq)LESSEQ;
+
+
+Colon ::= (Colon) COLON;
+Expr ::= (NormalExpr) Expr1 | (TernaryExpr) CondFact QUESTMARK Expr1 Colon Expr1;
+Expr1 ::= (Expr1) NegTerm AddopTermRepeat;
+
+NegTerm ::= (NegTerm) OptMinus Term;
+AddopTermRepeat ::= (AddopTermRepeatNonEmpty) AddopTermRepeat Addop Term
+                  | (AddopTermRepeatEmpty)    /* empty */
+                  ;
+
+Term              ::= (Term) Factor MulopFactorRepeat;
+MulopFactorRepeat ::= (MulopFactorRepeatNonEmpty) MulopFactorRepeat Mulop Factor
+                    | (MulopFactorRepeatEmpty)    /* empty */
+                    ;
+
+Factor ::= (FactorConstValue) ConstValue
+         | (FactorParenExpr)  LPAREN Expr RPAREN
+         | (FactorNewArray)   NEW Type LSQUARE Expr RSQUARE
+         | (FactorDesignator) Designator
+         ;
+
+Assignop ::= (AssignopEqual)      EQUAL
+           | (AssignopAddopRight) AddopRight
+           | (AssignopMulopRight) MulopRight
+           ;
+
+Addop ::= (AddopAdd) ADD
+             | (AddoptSub) SUB
+             ;
+
+Mulop  ::= (MulopDiv) DIV
+             | (MulopMul) MUL
+             | (MulopMod) MOD
+             ;

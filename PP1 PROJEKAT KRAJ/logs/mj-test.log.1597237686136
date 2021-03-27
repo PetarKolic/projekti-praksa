@@ -1,0 +1,278 @@
+INFO  15:07:57,766 - Compiling source file :D:\Helper\PetarKolich\PP1\test\test.mj
+INFO  15:07:57,776 - ====================== Performing Syntax Check ======================
+INFO  15:07:57,797 - #2 program
+INFO  15:07:57,798 - #3 test301
+INFO  15:07:57,798 - #3 int
+INFO  15:07:57,798 - #3 niz
+INFO  15:07:57,799 - #6 [
+INFO  15:07:57,799 - #7 ]
+INFO  15:07:57,799 - #12 ;
+INFO  15:07:57,802 - #4 {
+INFO  15:07:57,803 - #17 void
+INFO  15:07:57,803 - #3 main
+INFO  15:07:57,803 - #8 (
+INFO  15:07:57,803 - #9 )
+INFO  15:07:57,803 - #3 int
+INFO  15:07:57,804 - #3 x
+INFO  15:07:57,804 - #12 ;
+INFO  15:07:57,805 - #3 int
+INFO  15:07:57,805 - #3 x
+INFO  15:07:57,805 - #12 ;
+INFO  15:07:57,805 - #4 {
+INFO  15:07:57,805 - #3 niz
+INFO  15:07:57,806 - #6 [
+INFO  15:07:57,806 - #3 x
+INFO  15:07:57,807 - #7 ]
+INFO  15:07:57,809 - #20 ++
+INFO  15:07:57,810 - #12 ;
+INFO  15:07:57,810 - #3 niz
+INFO  15:07:57,810 - #11 =
+INFO  15:07:57,810 - #23 new
+INFO  15:07:57,811 - #3 int
+INFO  15:07:57,811 - #6 [
+INFO  15:07:57,811 - #14 5
+INFO  15:07:57,811 - #7 ]
+INFO  15:07:57,812 - #12 ;
+INFO  15:07:57,812 - #3 x
+INFO  15:07:57,812 - #11 =
+INFO  15:07:57,812 - #3 x
+INFO  15:07:57,812 - #28 +=
+INFO  15:07:57,812 - #14 2
+INFO  15:07:57,814 - #12 ;
+INFO  15:07:57,814 - #3 x
+INFO  15:07:57,814 - #11 =
+INFO  15:07:57,814 - #14 2
+INFO  15:07:57,814 - #12 ;
+INFO  15:07:57,814 - #3 niz
+INFO  15:07:57,814 - #6 [
+INFO  15:07:57,814 - #14 0
+INFO  15:07:57,815 - #7 ]
+INFO  15:07:57,815 - #11 =
+INFO  15:07:57,815 - #3 x
+INFO  15:07:57,815 - #12 ;
+INFO  15:07:57,815 - #5 }
+INFO  15:07:57,815 - #5 }
+INFO  15:07:57,825 - Program(
+ test301
+  ConstVarDeclRepeatVar(
+    ConstVarDeclRepeatEmpty(
+    ) [ConstVarDeclRepeatEmpty]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+     niz
+      OptArrayNonEmpty(
+      ) [OptArrayNonEmpty]
+      VarDefRepeatEmpty(
+      ) [VarDefRepeatEmpty]
+    ) [VarDecl]
+  ) [ConstVarDeclRepeatVar]
+  MethodDecl(
+   main
+    VarDeclRepeatNonEmpty(
+      VarDeclRepeatNonEmpty(
+        VarDeclRepeatEmpty(
+        ) [VarDeclRepeatEmpty]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         x
+          OptArrayEmpty(
+          ) [OptArrayEmpty]
+          VarDefRepeatEmpty(
+          ) [VarDefRepeatEmpty]
+        ) [VarDecl]
+      ) [VarDeclRepeatNonEmpty]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+       x
+        OptArrayEmpty(
+        ) [OptArrayEmpty]
+        VarDefRepeatEmpty(
+        ) [VarDefRepeatEmpty]
+      ) [VarDecl]
+    ) [VarDeclRepeatNonEmpty]
+    StatementRepeatNonEmpty(
+      StatementRepeatNonEmpty(
+        StatementRepeatNonEmpty(
+          StatementRepeatNonEmpty(
+            StatementRepeatNonEmpty(
+              StatementRepeatEmpty(
+              ) [StatementRepeatEmpty]
+              StatementDesignatorStatement(
+                DesignatorStatementInc(
+                  DesignatorArrElement(
+                   niz
+                    Expr(
+                      OptMinusEmpty(
+                      ) [OptMinusEmpty]
+                      Term(
+                        FactorDesignator(
+                          DesignatorVar(
+                           x
+                          ) [DesignatorVar]
+                        ) [FactorDesignator]
+                        MulopFactorRepeatEmpty(
+                        ) [MulopFactorRepeatEmpty]
+                      ) [Term]
+                      AddopTermRepeatEmpty(
+                      ) [AddopTermRepeatEmpty]
+                    ) [Expr]
+                  ) [DesignatorArrElement]
+                ) [DesignatorStatementInc]
+              ) [StatementDesignatorStatement]
+            ) [StatementRepeatNonEmpty]
+            StatementDesignatorStatement(
+              DesignatorStatementAssignop(
+                DesignatorVar(
+                 niz
+                ) [DesignatorVar]
+                AssignopEqual(
+                ) [AssignopEqual]
+                Expr(
+                  OptMinusEmpty(
+                  ) [OptMinusEmpty]
+                  Term(
+                    FactorNewArray(
+                      Type(
+                       int
+                      ) [Type]
+                      Expr(
+                        OptMinusEmpty(
+                        ) [OptMinusEmpty]
+                        Term(
+                          FactorConstValue(
+                            NumConstValue(
+                             5
+                            ) [NumConstValue]
+                          ) [FactorConstValue]
+                          MulopFactorRepeatEmpty(
+                          ) [MulopFactorRepeatEmpty]
+                        ) [Term]
+                        AddopTermRepeatEmpty(
+                        ) [AddopTermRepeatEmpty]
+                      ) [Expr]
+                    ) [FactorNewArray]
+                    MulopFactorRepeatEmpty(
+                    ) [MulopFactorRepeatEmpty]
+                  ) [Term]
+                  AddopTermRepeatEmpty(
+                  ) [AddopTermRepeatEmpty]
+                ) [Expr]
+              ) [DesignatorStatementAssignop]
+            ) [StatementDesignatorStatement]
+          ) [StatementRepeatNonEmpty]
+          StatementDesignatorStatement(
+            DesignatorStatementAssignop(
+              DesignatorVar(
+               x
+              ) [DesignatorVar]
+              AssignopEqual(
+              ) [AssignopEqual]
+              Expr(
+                OptMinusEmpty(
+                ) [OptMinusEmpty]
+                Term(
+                  FactorDesignator(
+                    DesignatorVar(
+                     x
+                    ) [DesignatorVar]
+                  ) [FactorDesignator]
+                  MulopFactorRepeatEmpty(
+                  ) [MulopFactorRepeatEmpty]
+                ) [Term]
+                AddopTermRepeatNonEmpty(
+                  AddopTermRepeatEmpty(
+                  ) [AddopTermRepeatEmpty]
+                  AddopAddopRight(
+                    AddopRightAdd(
+                    ) [AddopRightAdd]
+                  ) [AddopAddopRight]
+                  Term(
+                    FactorConstValue(
+                      NumConstValue(
+                       2
+                      ) [NumConstValue]
+                    ) [FactorConstValue]
+                    MulopFactorRepeatEmpty(
+                    ) [MulopFactorRepeatEmpty]
+                  ) [Term]
+                ) [AddopTermRepeatNonEmpty]
+              ) [Expr]
+            ) [DesignatorStatementAssignop]
+          ) [StatementDesignatorStatement]
+        ) [StatementRepeatNonEmpty]
+        StatementDesignatorStatement(
+          DesignatorStatementAssignop(
+            DesignatorVar(
+             x
+            ) [DesignatorVar]
+            AssignopEqual(
+            ) [AssignopEqual]
+            Expr(
+              OptMinusEmpty(
+              ) [OptMinusEmpty]
+              Term(
+                FactorConstValue(
+                  NumConstValue(
+                   2
+                  ) [NumConstValue]
+                ) [FactorConstValue]
+                MulopFactorRepeatEmpty(
+                ) [MulopFactorRepeatEmpty]
+              ) [Term]
+              AddopTermRepeatEmpty(
+              ) [AddopTermRepeatEmpty]
+            ) [Expr]
+          ) [DesignatorStatementAssignop]
+        ) [StatementDesignatorStatement]
+      ) [StatementRepeatNonEmpty]
+      StatementDesignatorStatement(
+        DesignatorStatementAssignop(
+          DesignatorArrElement(
+           niz
+            Expr(
+              OptMinusEmpty(
+              ) [OptMinusEmpty]
+              Term(
+                FactorConstValue(
+                  NumConstValue(
+                   0
+                  ) [NumConstValue]
+                ) [FactorConstValue]
+                MulopFactorRepeatEmpty(
+                ) [MulopFactorRepeatEmpty]
+              ) [Term]
+              AddopTermRepeatEmpty(
+              ) [AddopTermRepeatEmpty]
+            ) [Expr]
+          ) [DesignatorArrElement]
+          AssignopEqual(
+          ) [AssignopEqual]
+          Expr(
+            OptMinusEmpty(
+            ) [OptMinusEmpty]
+            Term(
+              FactorDesignator(
+                DesignatorVar(
+                 x
+                ) [DesignatorVar]
+              ) [FactorDesignator]
+              MulopFactorRepeatEmpty(
+              ) [MulopFactorRepeatEmpty]
+            ) [Term]
+            AddopTermRepeatEmpty(
+            ) [AddopTermRepeatEmpty]
+          ) [Expr]
+        ) [DesignatorStatementAssignop]
+      ) [StatementDesignatorStatement]
+    ) [StatementRepeatNonEmpty]
+  ) [MethodDecl]
+) [Program]
+INFO  15:07:57,836 - ====================== Performing Semantic Check ======================
+ERROR 15:07:57,846 - Promenljiva sa nazivom x vec postoji!
+ERROR 15:07:57,846 - Semanticka greska! Prevodjenje se ne moze nastaviti

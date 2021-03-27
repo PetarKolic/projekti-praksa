@@ -1,0 +1,24 @@
+INFO  15:52:19,693 - Compiling source file :D:\Helper\PetarKolich\PP1\test\test.mj
+INFO  15:52:19,698 - ====================== Performing Syntax Check ======================
+INFO  15:52:19,713 - #2 program
+INFO  15:52:19,714 - #3 test301
+INFO  15:52:19,714 - #3 int
+INFO  15:52:19,714 - #3 niz
+INFO  15:52:19,716 - #6 [
+INFO  15:52:19,716 - #7 ]
+INFO  15:52:19,716 - #12 ;
+INFO  15:52:19,718 - #4 {
+INFO  15:52:19,719 - #17 void
+INFO  15:52:19,719 - #3 main
+INFO  15:52:19,719 - #8 (
+INFO  15:52:19,719 - #9 )
+INFO  15:52:19,719 - #3 int
+INFO  15:52:19,720 - #3 x
+INFO  15:52:19,720 - #12 ;
+INFO  15:52:19,720 - #4 {
+INFO  15:52:19,720 - #3 niz
+INFO  15:52:19,721 - #11 =
+INFO  15:52:19,721 - #23 new
+ERROR 15:52:19,721 - 
+Sintaksna greska na liniji 7
+ERROR 15:52:19,722 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7

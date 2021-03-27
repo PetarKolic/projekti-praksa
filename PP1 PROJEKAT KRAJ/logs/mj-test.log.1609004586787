@@ -1,0 +1,61 @@
+INFO  18:42:53,743 - Compiling source file :D:\Helper\PetarKolich\PP1\test\test.mj
+INFO  18:42:53,748 - ====================== Performing Syntax Check ======================
+INFO  18:42:53,762 - #2 program
+INFO  18:42:53,763 - #3 test301
+INFO  18:42:53,763 - #3 int
+INFO  18:42:53,763 - #3 x
+INFO  18:42:53,764 - #12 ;
+INFO  18:42:53,764 - #3 char
+INFO  18:42:53,765 - #3 c
+INFO  18:42:53,765 - #12 ;
+INFO  18:42:53,765 - #3 int
+INFO  18:42:53,765 - #3 niz
+INFO  18:42:53,765 - #6 [
+INFO  18:42:53,765 - #7 ]
+INFO  18:42:53,765 - #12 ;
+INFO  18:42:53,766 - #10 const
+INFO  18:42:53,766 - #3 int
+INFO  18:42:53,766 - #3 cx
+INFO  18:42:53,766 - #11 =
+INFO  18:42:53,766 - #14 5
+INFO  18:42:53,766 - #13 ,
+INFO  18:42:53,766 - #3 cc
+INFO  18:42:53,767 - #11 =
+INFO  18:42:53,767 - #15 true
+INFO  18:42:53,767 - #12 ;
+INFO  18:42:53,767 - #4 {
+INFO  18:42:53,768 - #17 void
+INFO  18:42:53,768 - #3 main
+INFO  18:42:53,768 - #8 (
+INFO  18:42:53,768 - #9 )
+INFO  18:42:53,768 - #4 {
+INFO  18:42:53,768 - #3 x
+INFO  18:42:53,769 - #11 =
+INFO  18:42:53,769 - #16 A
+INFO  18:42:53,769 - #12 ;
+INFO  18:42:53,771 - #3 niz
+INFO  18:42:53,772 - #11 =
+INFO  18:42:53,772 - #23 new
+INFO  18:42:53,772 - #3 int
+INFO  18:42:53,772 - #6 [
+INFO  18:42:53,772 - #14 5
+INFO  18:42:53,772 - #24 +
+INFO  18:42:53,772 - #14 6
+INFO  18:42:53,773 - #7 ]
+INFO  18:42:53,773 - #12 ;
+INFO  18:42:53,773 - #3 niz
+INFO  18:42:53,773 - #6 [
+INFO  18:42:53,773 - #3 x
+INFO  18:42:53,773 - #7 ]
+INFO  18:42:53,774 - #11 =
+INFO  18:42:53,774 - #14 2
+INFO  18:42:53,774 - #25 *
+INFO  18:42:53,774 - #14 3
+INFO  18:42:53,775 - #12 ;
+INFO  18:42:53,775 - #3 x
+INFO  18:42:53,775 - #20 ++
+INFO  18:42:53,775 - #3 x
+ERROR 18:42:53,775 - 
+Sintaksna greska na liniji 15
+ERROR 18:42:53,775 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 15
+ERROR 18:42:53,776 - Sintaksna greska! Prevodjenje se ne moze nastaviti

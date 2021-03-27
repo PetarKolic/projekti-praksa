@@ -1,0 +1,1819 @@
+INFO  14:50:25,190 - Compiling source file :D:\Helper\PetarKolich\PP1\test\test.mj
+INFO  14:50:25,196 - ====================== Performing Syntax Check ======================
+INFO  14:50:25,214 - #2 program
+INFO  14:50:25,214 - #3 test301
+INFO  14:50:25,214 - #10 const
+INFO  14:50:25,215 - #3 int
+INFO  14:50:25,216 - #3 nula
+INFO  14:50:25,216 - #11 =
+INFO  14:50:25,216 - #14 0
+INFO  14:50:25,216 - #12 ;
+INFO  14:50:25,217 - #10 const
+INFO  14:50:25,218 - #3 int
+INFO  14:50:25,218 - #3 jedan
+INFO  14:50:25,218 - #11 =
+INFO  14:50:25,218 - #14 1
+INFO  14:50:25,218 - #12 ;
+INFO  14:50:25,218 - #10 const
+INFO  14:50:25,219 - #3 int
+INFO  14:50:25,219 - #3 pet
+INFO  14:50:25,219 - #11 =
+INFO  14:50:25,219 - #14 5
+INFO  14:50:25,219 - #12 ;
+INFO  14:50:25,219 - #3 int
+INFO  14:50:25,219 - #3 niz
+INFO  14:50:25,219 - #6 [
+INFO  14:50:25,219 - #7 ]
+INFO  14:50:25,220 - #12 ;
+INFO  14:50:25,220 - #3 char
+INFO  14:50:25,221 - #3 nizch
+INFO  14:50:25,221 - #6 [
+INFO  14:50:25,221 - #7 ]
+INFO  14:50:25,221 - #12 ;
+INFO  14:50:25,221 - #4 {
+INFO  14:50:25,221 - #17 void
+INFO  14:50:25,221 - #3 main
+INFO  14:50:25,221 - #8 (
+INFO  14:50:25,222 - #9 )
+INFO  14:50:25,222 - #3 int
+INFO  14:50:25,222 - #3 bodovi
+INFO  14:50:25,222 - #12 ;
+INFO  14:50:25,223 - #3 bool
+INFO  14:50:25,223 - #3 bt
+INFO  14:50:25,223 - #12 ;
+INFO  14:50:25,223 - #4 {
+INFO  14:50:25,223 - #3 bodovi
+INFO  14:50:25,223 - #11 =
+INFO  14:50:25,223 - #14 0
+INFO  14:50:25,225 - #12 ;
+INFO  14:50:25,226 - #3 bodovi
+INFO  14:50:25,227 - #20 ++
+INFO  14:50:25,227 - #12 ;
+INFO  14:50:25,227 - #3 bodovi
+INFO  14:50:25,227 - #11 =
+INFO  14:50:25,227 - #3 bodovi
+INFO  14:50:25,227 - #24 +
+INFO  14:50:25,227 - #3 jedan
+INFO  14:50:25,228 - #12 ;
+INFO  14:50:25,228 - #3 bodovi
+INFO  14:50:25,228 - #11 =
+INFO  14:50:25,229 - #3 bodovi
+INFO  14:50:25,229 - #25 *
+INFO  14:50:25,229 - #3 pet
+INFO  14:50:25,229 - #12 ;
+INFO  14:50:25,230 - #3 bodovi
+INFO  14:50:25,230 - #21 --
+INFO  14:50:25,230 - #12 ;
+INFO  14:50:25,230 - #19 print
+INFO  14:50:25,230 - #8 (
+INFO  14:50:25,230 - #3 bodovi
+INFO  14:50:25,230 - #9 )
+INFO  14:50:25,230 - #12 ;
+INFO  14:50:25,230 - #3 niz
+INFO  14:50:25,230 - #11 =
+INFO  14:50:25,231 - #23 new
+INFO  14:50:25,231 - #3 int
+INFO  14:50:25,231 - #6 [
+INFO  14:50:25,231 - #14 3
+INFO  14:50:25,231 - #7 ]
+INFO  14:50:25,231 - #12 ;
+INFO  14:50:25,231 - #3 niz
+INFO  14:50:25,231 - #6 [
+INFO  14:50:25,231 - #3 nula
+INFO  14:50:25,231 - #7 ]
+INFO  14:50:25,232 - #11 =
+INFO  14:50:25,232 - #3 jedan
+INFO  14:50:25,232 - #12 ;
+INFO  14:50:25,232 - #3 niz
+INFO  14:50:25,232 - #6 [
+INFO  14:50:25,232 - #14 1
+INFO  14:50:25,232 - #7 ]
+INFO  14:50:25,232 - #11 =
+INFO  14:50:25,232 - #14 2
+INFO  14:50:25,232 - #12 ;
+INFO  14:50:25,232 - #3 niz
+INFO  14:50:25,232 - #6 [
+INFO  14:50:25,232 - #3 niz
+INFO  14:50:25,232 - #6 [
+INFO  14:50:25,232 - #3 jedan
+INFO  14:50:25,233 - #7 ]
+INFO  14:50:25,233 - #7 ]
+INFO  14:50:25,233 - #11 =
+INFO  14:50:25,233 - #3 niz
+INFO  14:50:25,233 - #6 [
+INFO  14:50:25,233 - #3 niz
+INFO  14:50:25,233 - #6 [
+INFO  14:50:25,233 - #14 0
+INFO  14:50:25,233 - #7 ]
+INFO  14:50:25,233 - #7 ]
+INFO  14:50:25,233 - #25 *
+INFO  14:50:25,233 - #14 3
+INFO  14:50:25,233 - #12 ;
+INFO  14:50:25,233 - #3 bodovi
+INFO  14:50:25,233 - #11 =
+INFO  14:50:25,233 - #3 niz
+INFO  14:50:25,233 - #6 [
+INFO  14:50:25,233 - #14 2
+INFO  14:50:25,233 - #7 ]
+INFO  14:50:25,234 - #26 /
+INFO  14:50:25,234 - #3 niz
+INFO  14:50:25,234 - #6 [
+INFO  14:50:25,234 - #14 0
+INFO  14:50:25,234 - #7 ]
+INFO  14:50:25,234 - #12 ;
+INFO  14:50:25,234 - #19 print
+INFO  14:50:25,234 - #8 (
+INFO  14:50:25,234 - #3 bodovi
+INFO  14:50:25,235 - #9 )
+INFO  14:50:25,235 - #12 ;
+INFO  14:50:25,235 - #19 print
+INFO  14:50:25,235 - #8 (
+INFO  14:50:25,235 - #3 niz
+INFO  14:50:25,235 - #6 [
+INFO  14:50:25,235 - #14 2
+INFO  14:50:25,235 - #7 ]
+INFO  14:50:25,235 - #9 )
+INFO  14:50:25,235 - #12 ;
+INFO  14:50:25,235 - #3 nizch
+INFO  14:50:25,235 - #11 =
+INFO  14:50:25,235 - #23 new
+INFO  14:50:25,235 - #3 char
+INFO  14:50:25,236 - #6 [
+INFO  14:50:25,236 - #14 3
+INFO  14:50:25,236 - #7 ]
+INFO  14:50:25,236 - #12 ;
+INFO  14:50:25,236 - #3 nizch
+INFO  14:50:25,236 - #6 [
+INFO  14:50:25,236 - #14 0
+INFO  14:50:25,236 - #7 ]
+INFO  14:50:25,236 - #11 =
+INFO  14:50:25,236 - #16 a
+INFO  14:50:25,236 - #12 ;
+INFO  14:50:25,236 - #3 nizch
+INFO  14:50:25,236 - #6 [
+INFO  14:50:25,236 - #3 jedan
+INFO  14:50:25,236 - #7 ]
+INFO  14:50:25,236 - #11 =
+INFO  14:50:25,236 - #16 b
+INFO  14:50:25,236 - #12 ;
+INFO  14:50:25,236 - #3 nizch
+INFO  14:50:25,237 - #6 [
+INFO  14:50:25,237 - #3 pet
+INFO  14:50:25,237 - #22 -
+INFO  14:50:25,237 - #14 3
+INFO  14:50:25,237 - #7 ]
+INFO  14:50:25,237 - #11 =
+INFO  14:50:25,238 - #16 c
+INFO  14:50:25,238 - #12 ;
+INFO  14:50:25,238 - #19 print
+INFO  14:50:25,238 - #8 (
+INFO  14:50:25,238 - #3 nizch
+INFO  14:50:25,239 - #6 [
+INFO  14:50:25,239 - #14 1
+INFO  14:50:25,239 - #7 ]
+INFO  14:50:25,239 - #9 )
+INFO  14:50:25,239 - #12 ;
+INFO  14:50:25,239 - #19 print
+INFO  14:50:25,239 - #8 (
+INFO  14:50:25,239 - #3 nizch
+INFO  14:50:25,239 - #6 [
+INFO  14:50:25,239 - #3 jedan
+INFO  14:50:25,239 - #25 *
+INFO  14:50:25,239 - #14 2
+INFO  14:50:25,239 - #7 ]
+INFO  14:50:25,239 - #9 )
+INFO  14:50:25,239 - #12 ;
+INFO  14:50:25,239 - #3 bodovi
+INFO  14:50:25,239 - #11 =
+INFO  14:50:25,239 - #3 bodovi
+INFO  14:50:25,239 - #24 +
+INFO  14:50:25,239 - #8 (
+INFO  14:50:25,239 - #3 pet
+INFO  14:50:25,240 - #25 *
+INFO  14:50:25,240 - #3 jedan
+INFO  14:50:25,240 - #22 -
+INFO  14:50:25,240 - #14 1
+INFO  14:50:25,240 - #9 )
+INFO  14:50:25,240 - #25 *
+INFO  14:50:25,240 - #3 bodovi
+INFO  14:50:25,240 - #22 -
+INFO  14:50:25,240 - #8 (
+INFO  14:50:25,240 - #14 3
+INFO  14:50:25,240 - #27 %
+INFO  14:50:25,240 - #14 2
+INFO  14:50:25,241 - #24 +
+INFO  14:50:25,241 - #14 3
+INFO  14:50:25,241 - #25 *
+INFO  14:50:25,241 - #14 2
+INFO  14:50:25,241 - #22 -
+INFO  14:50:25,241 - #14 3
+INFO  14:50:25,242 - #9 )
+INFO  14:50:25,242 - #12 ;
+INFO  14:50:25,242 - #19 print
+INFO  14:50:25,242 - #8 (
+INFO  14:50:25,242 - #3 bodovi
+INFO  14:50:25,242 - #9 )
+INFO  14:50:25,242 - #12 ;
+INFO  14:50:25,242 - #18 read
+INFO  14:50:25,242 - #8 (
+INFO  14:50:25,242 - #3 bodovi
+INFO  14:50:25,242 - #9 )
+INFO  14:50:25,242 - #12 ;
+INFO  14:50:25,242 - #3 bt
+INFO  14:50:25,243 - #11 =
+INFO  14:50:25,243 - #15 true
+INFO  14:50:25,243 - #12 ;
+INFO  14:50:25,243 - #19 print
+INFO  14:50:25,243 - #8 (
+INFO  14:50:25,243 - #3 bt
+INFO  14:50:25,243 - #33 ?
+INFO  14:50:25,243 - #3 bodovi
+INFO  14:50:25,243 - #34 :
+INFO  14:50:25,243 - #3 bodovi
+INFO  14:50:25,244 - #24 +
+INFO  14:50:25,244 - #14 10
+INFO  14:50:25,244 - #9 )
+INFO  14:50:25,244 - #12 ;
+INFO  14:50:25,244 - #19 print
+INFO  14:50:25,244 - #8 (
+INFO  14:50:25,244 - #15 false
+INFO  14:50:25,245 - #33 ?
+INFO  14:50:25,245 - #3 bodovi
+INFO  14:50:25,245 - #24 +
+INFO  14:50:25,245 - #14 20
+INFO  14:50:25,245 - #34 :
+INFO  14:50:25,245 - #3 bodovi
+INFO  14:50:25,245 - #24 +
+INFO  14:50:25,245 - #14 30
+INFO  14:50:25,245 - #9 )
+INFO  14:50:25,245 - #12 ;
+INFO  14:50:25,245 - #19 print
+INFO  14:50:25,245 - #8 (
+INFO  14:50:25,245 - #3 bodovi
+INFO  14:50:25,245 - #37 >
+INFO  14:50:25,245 - #14 10
+INFO  14:50:25,246 - #33 ?
+INFO  14:50:25,246 - #16 +
+INFO  14:50:25,246 - #34 :
+INFO  14:50:25,246 - #8 (
+INFO  14:50:25,246 - #3 bodovi
+INFO  14:50:25,246 - #35 ==
+INFO  14:50:25,246 - #14 10
+INFO  14:50:25,247 - #33 ?
+INFO  14:50:25,247 - #16 k
+INFO  14:50:25,247 - #34 :
+INFO  14:50:25,247 - #16 -
+INFO  14:50:25,247 - #9 )
+INFO  14:50:25,247 - #9 )
+INFO  14:50:25,247 - #12 ;
+INFO  14:50:25,247 - #5 }
+INFO  14:50:25,247 - #5 }
+INFO  14:50:25,260 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ConstVarDeclRepeatVar(
+    ConstVarDeclRepeatVar(
+      ConstVarDeclRepeatConst(
+        ConstVarDeclRepeatConst(
+          ConstVarDeclRepeatConst(
+            ConstVarDeclRepeatEmpty(
+            ) [ConstVarDeclRepeatEmpty]
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+             nula
+              NumConstValue(
+               0
+              ) [NumConstValue]
+              ConstDefRepeatEmpty(
+              ) [ConstDefRepeatEmpty]
+            ) [ConstDecl]
+          ) [ConstVarDeclRepeatConst]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+           jedan
+            NumConstValue(
+             1
+            ) [NumConstValue]
+            ConstDefRepeatEmpty(
+            ) [ConstDefRepeatEmpty]
+          ) [ConstDecl]
+        ) [ConstVarDeclRepeatConst]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+         pet
+          NumConstValue(
+           5
+          ) [NumConstValue]
+          ConstDefRepeatEmpty(
+          ) [ConstDefRepeatEmpty]
+        ) [ConstDecl]
+      ) [ConstVarDeclRepeatConst]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+       niz
+        OptArrayNonEmpty(
+        ) [OptArrayNonEmpty]
+        VarDefRepeatEmpty(
+        ) [VarDefRepeatEmpty]
+      ) [VarDecl]
+    ) [ConstVarDeclRepeatVar]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+     nizch
+      OptArrayNonEmpty(
+      ) [OptArrayNonEmpty]
+      VarDefRepeatEmpty(
+      ) [VarDefRepeatEmpty]
+    ) [VarDecl]
+  ) [ConstVarDeclRepeatVar]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclRepeatNonEmpty(
+      VarDeclRepeatNonEmpty(
+        VarDeclRepeatEmpty(
+        ) [VarDeclRepeatEmpty]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         bodovi
+          OptArrayEmpty(
+          ) [OptArrayEmpty]
+          VarDefRepeatEmpty(
+          ) [VarDefRepeatEmpty]
+        ) [VarDecl]
+      ) [VarDeclRepeatNonEmpty]
+      VarDecl(
+        Type(
+         bool
+        ) [Type]
+       bt
+        OptArrayEmpty(
+        ) [OptArrayEmpty]
+        VarDefRepeatEmpty(
+        ) [VarDefRepeatEmpty]
+      ) [VarDecl]
+    ) [VarDeclRepeatNonEmpty]
+    StatementRepeatNonEmpty(
+      StatementRepeatNonEmpty(
+        StatementRepeatNonEmpty(
+          StatementRepeatNonEmpty(
+            StatementRepeatNonEmpty(
+              StatementRepeatNonEmpty(
+                StatementRepeatNonEmpty(
+                  StatementRepeatNonEmpty(
+                    StatementRepeatNonEmpty(
+                      StatementRepeatNonEmpty(
+                        StatementRepeatNonEmpty(
+                          StatementRepeatNonEmpty(
+                            StatementRepeatNonEmpty(
+                              StatementRepeatNonEmpty(
+                                StatementRepeatNonEmpty(
+                                  StatementRepeatNonEmpty(
+                                    StatementRepeatNonEmpty(
+                                      StatementRepeatNonEmpty(
+                                        StatementRepeatNonEmpty(
+                                          StatementRepeatNonEmpty(
+                                            StatementRepeatNonEmpty(
+                                              StatementRepeatNonEmpty(
+                                                StatementRepeatNonEmpty(
+                                                  StatementRepeatNonEmpty(
+                                                    StatementRepeatNonEmpty(
+                                                      StatementRepeatNonEmpty(
+                                                        StatementRepeatEmpty(
+                                                        ) [StatementRepeatEmpty]
+                                                        StatementDesignatorStatement(
+                                                          DesignatorStatementAssignop(
+                                                            DesignatorVar(
+                                                             bodovi
+                                                            ) [DesignatorVar]
+                                                            AssignopEqual(
+                                                            ) [AssignopEqual]
+                                                            NormalExpr(
+                                                              Expr1(
+                                                                NegTerm(
+                                                                  OptMinusEmpty(
+                                                                  ) [OptMinusEmpty]
+                                                                  Term(
+                                                                    FactorConstValue(
+                                                                      NumConstValue(
+                                                                       0
+                                                                      ) [NumConstValue]
+                                                                    ) [FactorConstValue]
+                                                                    MulopFactorRepeatEmpty(
+                                                                    ) [MulopFactorRepeatEmpty]
+                                                                  ) [Term]
+                                                                ) [NegTerm]
+                                                                AddopTermRepeatEmpty(
+                                                                ) [AddopTermRepeatEmpty]
+                                                              ) [Expr1]
+                                                            ) [NormalExpr]
+                                                          ) [DesignatorStatementAssignop]
+                                                        ) [StatementDesignatorStatement]
+                                                      ) [StatementRepeatNonEmpty]
+                                                      StatementDesignatorStatement(
+                                                        DesignatorStatementInc(
+                                                          DesignatorVar(
+                                                           bodovi
+                                                          ) [DesignatorVar]
+                                                        ) [DesignatorStatementInc]
+                                                      ) [StatementDesignatorStatement]
+                                                    ) [StatementRepeatNonEmpty]
+                                                    StatementDesignatorStatement(
+                                                      DesignatorStatementAssignop(
+                                                        DesignatorVar(
+                                                         bodovi
+                                                        ) [DesignatorVar]
+                                                        AssignopEqual(
+                                                        ) [AssignopEqual]
+                                                        NormalExpr(
+                                                          Expr1(
+                                                            NegTerm(
+                                                              OptMinusEmpty(
+                                                              ) [OptMinusEmpty]
+                                                              Term(
+                                                                FactorDesignator(
+                                                                  DesignatorVar(
+                                                                   bodovi
+                                                                  ) [DesignatorVar]
+                                                                ) [FactorDesignator]
+                                                                MulopFactorRepeatEmpty(
+                                                                ) [MulopFactorRepeatEmpty]
+                                                              ) [Term]
+                                                            ) [NegTerm]
+                                                            AddopTermRepeatNonEmpty(
+                                                              AddopTermRepeatEmpty(
+                                                              ) [AddopTermRepeatEmpty]
+                                                              AddopAdd(
+                                                              ) [AddopAdd]
+                                                              Term(
+                                                                FactorDesignator(
+                                                                  DesignatorVar(
+                                                                   jedan
+                                                                  ) [DesignatorVar]
+                                                                ) [FactorDesignator]
+                                                                MulopFactorRepeatEmpty(
+                                                                ) [MulopFactorRepeatEmpty]
+                                                              ) [Term]
+                                                            ) [AddopTermRepeatNonEmpty]
+                                                          ) [Expr1]
+                                                        ) [NormalExpr]
+                                                      ) [DesignatorStatementAssignop]
+                                                    ) [StatementDesignatorStatement]
+                                                  ) [StatementRepeatNonEmpty]
+                                                  StatementDesignatorStatement(
+                                                    DesignatorStatementAssignop(
+                                                      DesignatorVar(
+                                                       bodovi
+                                                      ) [DesignatorVar]
+                                                      AssignopEqual(
+                                                      ) [AssignopEqual]
+                                                      NormalExpr(
+                                                        Expr1(
+                                                          NegTerm(
+                                                            OptMinusEmpty(
+                                                            ) [OptMinusEmpty]
+                                                            Term(
+                                                              FactorDesignator(
+                                                                DesignatorVar(
+                                                                 bodovi
+                                                                ) [DesignatorVar]
+                                                              ) [FactorDesignator]
+                                                              MulopFactorRepeatNonEmpty(
+                                                                MulopFactorRepeatEmpty(
+                                                                ) [MulopFactorRepeatEmpty]
+                                                                MulopMul(
+                                                                ) [MulopMul]
+                                                                FactorDesignator(
+                                                                  DesignatorVar(
+                                                                   pet
+                                                                  ) [DesignatorVar]
+                                                                ) [FactorDesignator]
+                                                              ) [MulopFactorRepeatNonEmpty]
+                                                            ) [Term]
+                                                          ) [NegTerm]
+                                                          AddopTermRepeatEmpty(
+                                                          ) [AddopTermRepeatEmpty]
+                                                        ) [Expr1]
+                                                      ) [NormalExpr]
+                                                    ) [DesignatorStatementAssignop]
+                                                  ) [StatementDesignatorStatement]
+                                                ) [StatementRepeatNonEmpty]
+                                                StatementDesignatorStatement(
+                                                  DesignatorStatementDecr(
+                                                    DesignatorVar(
+                                                     bodovi
+                                                    ) [DesignatorVar]
+                                                  ) [DesignatorStatementDecr]
+                                                ) [StatementDesignatorStatement]
+                                              ) [StatementRepeatNonEmpty]
+                                              StatementPrint(
+                                                NormalExpr(
+                                                  Expr1(
+                                                    NegTerm(
+                                                      OptMinusEmpty(
+                                                      ) [OptMinusEmpty]
+                                                      Term(
+                                                        FactorDesignator(
+                                                          DesignatorVar(
+                                                           bodovi
+                                                          ) [DesignatorVar]
+                                                        ) [FactorDesignator]
+                                                        MulopFactorRepeatEmpty(
+                                                        ) [MulopFactorRepeatEmpty]
+                                                      ) [Term]
+                                                    ) [NegTerm]
+                                                    AddopTermRepeatEmpty(
+                                                    ) [AddopTermRepeatEmpty]
+                                                  ) [Expr1]
+                                                ) [NormalExpr]
+                                                OptPrintWidthEmpty(
+                                                ) [OptPrintWidthEmpty]
+                                              ) [StatementPrint]
+                                            ) [StatementRepeatNonEmpty]
+                                            StatementDesignatorStatement(
+                                              DesignatorStatementAssignop(
+                                                DesignatorVar(
+                                                 niz
+                                                ) [DesignatorVar]
+                                                AssignopEqual(
+                                                ) [AssignopEqual]
+                                                NormalExpr(
+                                                  Expr1(
+                                                    NegTerm(
+                                                      OptMinusEmpty(
+                                                      ) [OptMinusEmpty]
+                                                      Term(
+                                                        FactorNewArray(
+                                                          Type(
+                                                           int
+                                                          ) [Type]
+                                                          NormalExpr(
+                                                            Expr1(
+                                                              NegTerm(
+                                                                OptMinusEmpty(
+                                                                ) [OptMinusEmpty]
+                                                                Term(
+                                                                  FactorConstValue(
+                                                                    NumConstValue(
+                                                                     3
+                                                                    ) [NumConstValue]
+                                                                  ) [FactorConstValue]
+                                                                  MulopFactorRepeatEmpty(
+                                                                  ) [MulopFactorRepeatEmpty]
+                                                                ) [Term]
+                                                              ) [NegTerm]
+                                                              AddopTermRepeatEmpty(
+                                                              ) [AddopTermRepeatEmpty]
+                                                            ) [Expr1]
+                                                          ) [NormalExpr]
+                                                        ) [FactorNewArray]
+                                                        MulopFactorRepeatEmpty(
+                                                        ) [MulopFactorRepeatEmpty]
+                                                      ) [Term]
+                                                    ) [NegTerm]
+                                                    AddopTermRepeatEmpty(
+                                                    ) [AddopTermRepeatEmpty]
+                                                  ) [Expr1]
+                                                ) [NormalExpr]
+                                              ) [DesignatorStatementAssignop]
+                                            ) [StatementDesignatorStatement]
+                                          ) [StatementRepeatNonEmpty]
+                                          StatementDesignatorStatement(
+                                            DesignatorStatementAssignop(
+                                              DesignatorArrElement(
+                                                DesignatorVarArr(
+                                                 niz
+                                                ) [DesignatorVarArr]
+                                                NormalExpr(
+                                                  Expr1(
+                                                    NegTerm(
+                                                      OptMinusEmpty(
+                                                      ) [OptMinusEmpty]
+                                                      Term(
+                                                        FactorDesignator(
+                                                          DesignatorVar(
+                                                           nula
+                                                          ) [DesignatorVar]
+                                                        ) [FactorDesignator]
+                                                        MulopFactorRepeatEmpty(
+                                                        ) [MulopFactorRepeatEmpty]
+                                                      ) [Term]
+                                                    ) [NegTerm]
+                                                    AddopTermRepeatEmpty(
+                                                    ) [AddopTermRepeatEmpty]
+                                                  ) [Expr1]
+                                                ) [NormalExpr]
+                                              ) [DesignatorArrElement]
+                                              AssignopEqual(
+                                              ) [AssignopEqual]
+                                              NormalExpr(
+                                                Expr1(
+                                                  NegTerm(
+                                                    OptMinusEmpty(
+                                                    ) [OptMinusEmpty]
+                                                    Term(
+                                                      FactorDesignator(
+                                                        DesignatorVar(
+                                                         jedan
+                                                        ) [DesignatorVar]
+                                                      ) [FactorDesignator]
+                                                      MulopFactorRepeatEmpty(
+                                                      ) [MulopFactorRepeatEmpty]
+                                                    ) [Term]
+                                                  ) [NegTerm]
+                                                  AddopTermRepeatEmpty(
+                                                  ) [AddopTermRepeatEmpty]
+                                                ) [Expr1]
+                                              ) [NormalExpr]
+                                            ) [DesignatorStatementAssignop]
+                                          ) [StatementDesignatorStatement]
+                                        ) [StatementRepeatNonEmpty]
+                                        StatementDesignatorStatement(
+                                          DesignatorStatementAssignop(
+                                            DesignatorArrElement(
+                                              DesignatorVarArr(
+                                               niz
+                                              ) [DesignatorVarArr]
+                                              NormalExpr(
+                                                Expr1(
+                                                  NegTerm(
+                                                    OptMinusEmpty(
+                                                    ) [OptMinusEmpty]
+                                                    Term(
+                                                      FactorConstValue(
+                                                        NumConstValue(
+                                                         1
+                                                        ) [NumConstValue]
+                                                      ) [FactorConstValue]
+                                                      MulopFactorRepeatEmpty(
+                                                      ) [MulopFactorRepeatEmpty]
+                                                    ) [Term]
+                                                  ) [NegTerm]
+                                                  AddopTermRepeatEmpty(
+                                                  ) [AddopTermRepeatEmpty]
+                                                ) [Expr1]
+                                              ) [NormalExpr]
+                                            ) [DesignatorArrElement]
+                                            AssignopEqual(
+                                            ) [AssignopEqual]
+                                            NormalExpr(
+                                              Expr1(
+                                                NegTerm(
+                                                  OptMinusEmpty(
+                                                  ) [OptMinusEmpty]
+                                                  Term(
+                                                    FactorConstValue(
+                                                      NumConstValue(
+                                                       2
+                                                      ) [NumConstValue]
+                                                    ) [FactorConstValue]
+                                                    MulopFactorRepeatEmpty(
+                                                    ) [MulopFactorRepeatEmpty]
+                                                  ) [Term]
+                                                ) [NegTerm]
+                                                AddopTermRepeatEmpty(
+                                                ) [AddopTermRepeatEmpty]
+                                              ) [Expr1]
+                                            ) [NormalExpr]
+                                          ) [DesignatorStatementAssignop]
+                                        ) [StatementDesignatorStatement]
+                                      ) [StatementRepeatNonEmpty]
+                                      StatementDesignatorStatement(
+                                        DesignatorStatementAssignop(
+                                          DesignatorArrElement(
+                                            DesignatorVarArr(
+                                             niz
+                                            ) [DesignatorVarArr]
+                                            NormalExpr(
+                                              Expr1(
+                                                NegTerm(
+                                                  OptMinusEmpty(
+                                                  ) [OptMinusEmpty]
+                                                  Term(
+                                                    FactorDesignator(
+                                                      DesignatorArrElement(
+                                                        DesignatorVarArr(
+                                                         niz
+                                                        ) [DesignatorVarArr]
+                                                        NormalExpr(
+                                                          Expr1(
+                                                            NegTerm(
+                                                              OptMinusEmpty(
+                                                              ) [OptMinusEmpty]
+                                                              Term(
+                                                                FactorDesignator(
+                                                                  DesignatorVar(
+                                                                   jedan
+                                                                  ) [DesignatorVar]
+                                                                ) [FactorDesignator]
+                                                                MulopFactorRepeatEmpty(
+                                                                ) [MulopFactorRepeatEmpty]
+                                                              ) [Term]
+                                                            ) [NegTerm]
+                                                            AddopTermRepeatEmpty(
+                                                            ) [AddopTermRepeatEmpty]
+                                                          ) [Expr1]
+                                                        ) [NormalExpr]
+                                                      ) [DesignatorArrElement]
+                                                    ) [FactorDesignator]
+                                                    MulopFactorRepeatEmpty(
+                                                    ) [MulopFactorRepeatEmpty]
+                                                  ) [Term]
+                                                ) [NegTerm]
+                                                AddopTermRepeatEmpty(
+                                                ) [AddopTermRepeatEmpty]
+                                              ) [Expr1]
+                                            ) [NormalExpr]
+                                          ) [DesignatorArrElement]
+                                          AssignopEqual(
+                                          ) [AssignopEqual]
+                                          NormalExpr(
+                                            Expr1(
+                                              NegTerm(
+                                                OptMinusEmpty(
+                                                ) [OptMinusEmpty]
+                                                Term(
+                                                  FactorDesignator(
+                                                    DesignatorArrElement(
+                                                      DesignatorVarArr(
+                                                       niz
+                                                      ) [DesignatorVarArr]
+                                                      NormalExpr(
+                                                        Expr1(
+                                                          NegTerm(
+                                                            OptMinusEmpty(
+                                                            ) [OptMinusEmpty]
+                                                            Term(
+                                                              FactorDesignator(
+                                                                DesignatorArrElement(
+                                                                  DesignatorVarArr(
+                                                                   niz
+                                                                  ) [DesignatorVarArr]
+                                                                  NormalExpr(
+                                                                    Expr1(
+                                                                      NegTerm(
+                                                                        OptMinusEmpty(
+                                                                        ) [OptMinusEmpty]
+                                                                        Term(
+                                                                          FactorConstValue(
+                                                                            NumConstValue(
+                                                                             0
+                                                                            ) [NumConstValue]
+                                                                          ) [FactorConstValue]
+                                                                          MulopFactorRepeatEmpty(
+                                                                          ) [MulopFactorRepeatEmpty]
+                                                                        ) [Term]
+                                                                      ) [NegTerm]
+                                                                      AddopTermRepeatEmpty(
+                                                                      ) [AddopTermRepeatEmpty]
+                                                                    ) [Expr1]
+                                                                  ) [NormalExpr]
+                                                                ) [DesignatorArrElement]
+                                                              ) [FactorDesignator]
+                                                              MulopFactorRepeatEmpty(
+                                                              ) [MulopFactorRepeatEmpty]
+                                                            ) [Term]
+                                                          ) [NegTerm]
+                                                          AddopTermRepeatEmpty(
+                                                          ) [AddopTermRepeatEmpty]
+                                                        ) [Expr1]
+                                                      ) [NormalExpr]
+                                                    ) [DesignatorArrElement]
+                                                  ) [FactorDesignator]
+                                                  MulopFactorRepeatNonEmpty(
+                                                    MulopFactorRepeatEmpty(
+                                                    ) [MulopFactorRepeatEmpty]
+                                                    MulopMul(
+                                                    ) [MulopMul]
+                                                    FactorConstValue(
+                                                      NumConstValue(
+                                                       3
+                                                      ) [NumConstValue]
+                                                    ) [FactorConstValue]
+                                                  ) [MulopFactorRepeatNonEmpty]
+                                                ) [Term]
+                                              ) [NegTerm]
+                                              AddopTermRepeatEmpty(
+                                              ) [AddopTermRepeatEmpty]
+                                            ) [Expr1]
+                                          ) [NormalExpr]
+                                        ) [DesignatorStatementAssignop]
+                                      ) [StatementDesignatorStatement]
+                                    ) [StatementRepeatNonEmpty]
+                                    StatementDesignatorStatement(
+                                      DesignatorStatementAssignop(
+                                        DesignatorVar(
+                                         bodovi
+                                        ) [DesignatorVar]
+                                        AssignopEqual(
+                                        ) [AssignopEqual]
+                                        NormalExpr(
+                                          Expr1(
+                                            NegTerm(
+                                              OptMinusEmpty(
+                                              ) [OptMinusEmpty]
+                                              Term(
+                                                FactorDesignator(
+                                                  DesignatorArrElement(
+                                                    DesignatorVarArr(
+                                                     niz
+                                                    ) [DesignatorVarArr]
+                                                    NormalExpr(
+                                                      Expr1(
+                                                        NegTerm(
+                                                          OptMinusEmpty(
+                                                          ) [OptMinusEmpty]
+                                                          Term(
+                                                            FactorConstValue(
+                                                              NumConstValue(
+                                                               2
+                                                              ) [NumConstValue]
+                                                            ) [FactorConstValue]
+                                                            MulopFactorRepeatEmpty(
+                                                            ) [MulopFactorRepeatEmpty]
+                                                          ) [Term]
+                                                        ) [NegTerm]
+                                                        AddopTermRepeatEmpty(
+                                                        ) [AddopTermRepeatEmpty]
+                                                      ) [Expr1]
+                                                    ) [NormalExpr]
+                                                  ) [DesignatorArrElement]
+                                                ) [FactorDesignator]
+                                                MulopFactorRepeatNonEmpty(
+                                                  MulopFactorRepeatEmpty(
+                                                  ) [MulopFactorRepeatEmpty]
+                                                  MulopDiv(
+                                                  ) [MulopDiv]
+                                                  FactorDesignator(
+                                                    DesignatorArrElement(
+                                                      DesignatorVarArr(
+                                                       niz
+                                                      ) [DesignatorVarArr]
+                                                      NormalExpr(
+                                                        Expr1(
+                                                          NegTerm(
+                                                            OptMinusEmpty(
+                                                            ) [OptMinusEmpty]
+                                                            Term(
+                                                              FactorConstValue(
+                                                                NumConstValue(
+                                                                 0
+                                                                ) [NumConstValue]
+                                                              ) [FactorConstValue]
+                                                              MulopFactorRepeatEmpty(
+                                                              ) [MulopFactorRepeatEmpty]
+                                                            ) [Term]
+                                                          ) [NegTerm]
+                                                          AddopTermRepeatEmpty(
+                                                          ) [AddopTermRepeatEmpty]
+                                                        ) [Expr1]
+                                                      ) [NormalExpr]
+                                                    ) [DesignatorArrElement]
+                                                  ) [FactorDesignator]
+                                                ) [MulopFactorRepeatNonEmpty]
+                                              ) [Term]
+                                            ) [NegTerm]
+                                            AddopTermRepeatEmpty(
+                                            ) [AddopTermRepeatEmpty]
+                                          ) [Expr1]
+                                        ) [NormalExpr]
+                                      ) [DesignatorStatementAssignop]
+                                    ) [StatementDesignatorStatement]
+                                  ) [StatementRepeatNonEmpty]
+                                  StatementPrint(
+                                    NormalExpr(
+                                      Expr1(
+                                        NegTerm(
+                                          OptMinusEmpty(
+                                          ) [OptMinusEmpty]
+                                          Term(
+                                            FactorDesignator(
+                                              DesignatorVar(
+                                               bodovi
+                                              ) [DesignatorVar]
+                                            ) [FactorDesignator]
+                                            MulopFactorRepeatEmpty(
+                                            ) [MulopFactorRepeatEmpty]
+                                          ) [Term]
+                                        ) [NegTerm]
+                                        AddopTermRepeatEmpty(
+                                        ) [AddopTermRepeatEmpty]
+                                      ) [Expr1]
+                                    ) [NormalExpr]
+                                    OptPrintWidthEmpty(
+                                    ) [OptPrintWidthEmpty]
+                                  ) [StatementPrint]
+                                ) [StatementRepeatNonEmpty]
+                                StatementPrint(
+                                  NormalExpr(
+                                    Expr1(
+                                      NegTerm(
+                                        OptMinusEmpty(
+                                        ) [OptMinusEmpty]
+                                        Term(
+                                          FactorDesignator(
+                                            DesignatorArrElement(
+                                              DesignatorVarArr(
+                                               niz
+                                              ) [DesignatorVarArr]
+                                              NormalExpr(
+                                                Expr1(
+                                                  NegTerm(
+                                                    OptMinusEmpty(
+                                                    ) [OptMinusEmpty]
+                                                    Term(
+                                                      FactorConstValue(
+                                                        NumConstValue(
+                                                         2
+                                                        ) [NumConstValue]
+                                                      ) [FactorConstValue]
+                                                      MulopFactorRepeatEmpty(
+                                                      ) [MulopFactorRepeatEmpty]
+                                                    ) [Term]
+                                                  ) [NegTerm]
+                                                  AddopTermRepeatEmpty(
+                                                  ) [AddopTermRepeatEmpty]
+                                                ) [Expr1]
+                                              ) [NormalExpr]
+                                            ) [DesignatorArrElement]
+                                          ) [FactorDesignator]
+                                          MulopFactorRepeatEmpty(
+                                          ) [MulopFactorRepeatEmpty]
+                                        ) [Term]
+                                      ) [NegTerm]
+                                      AddopTermRepeatEmpty(
+                                      ) [AddopTermRepeatEmpty]
+                                    ) [Expr1]
+                                  ) [NormalExpr]
+                                  OptPrintWidthEmpty(
+                                  ) [OptPrintWidthEmpty]
+                                ) [StatementPrint]
+                              ) [StatementRepeatNonEmpty]
+                              StatementDesignatorStatement(
+                                DesignatorStatementAssignop(
+                                  DesignatorVar(
+                                   nizch
+                                  ) [DesignatorVar]
+                                  AssignopEqual(
+                                  ) [AssignopEqual]
+                                  NormalExpr(
+                                    Expr1(
+                                      NegTerm(
+                                        OptMinusEmpty(
+                                        ) [OptMinusEmpty]
+                                        Term(
+                                          FactorNewArray(
+                                            Type(
+                                             char
+                                            ) [Type]
+                                            NormalExpr(
+                                              Expr1(
+                                                NegTerm(
+                                                  OptMinusEmpty(
+                                                  ) [OptMinusEmpty]
+                                                  Term(
+                                                    FactorConstValue(
+                                                      NumConstValue(
+                                                       3
+                                                      ) [NumConstValue]
+                                                    ) [FactorConstValue]
+                                                    MulopFactorRepeatEmpty(
+                                                    ) [MulopFactorRepeatEmpty]
+                                                  ) [Term]
+                                                ) [NegTerm]
+                                                AddopTermRepeatEmpty(
+                                                ) [AddopTermRepeatEmpty]
+                                              ) [Expr1]
+                                            ) [NormalExpr]
+                                          ) [FactorNewArray]
+                                          MulopFactorRepeatEmpty(
+                                          ) [MulopFactorRepeatEmpty]
+                                        ) [Term]
+                                      ) [NegTerm]
+                                      AddopTermRepeatEmpty(
+                                      ) [AddopTermRepeatEmpty]
+                                    ) [Expr1]
+                                  ) [NormalExpr]
+                                ) [DesignatorStatementAssignop]
+                              ) [StatementDesignatorStatement]
+                            ) [StatementRepeatNonEmpty]
+                            StatementDesignatorStatement(
+                              DesignatorStatementAssignop(
+                                DesignatorArrElement(
+                                  DesignatorVarArr(
+                                   nizch
+                                  ) [DesignatorVarArr]
+                                  NormalExpr(
+                                    Expr1(
+                                      NegTerm(
+                                        OptMinusEmpty(
+                                        ) [OptMinusEmpty]
+                                        Term(
+                                          FactorConstValue(
+                                            NumConstValue(
+                                             0
+                                            ) [NumConstValue]
+                                          ) [FactorConstValue]
+                                          MulopFactorRepeatEmpty(
+                                          ) [MulopFactorRepeatEmpty]
+                                        ) [Term]
+                                      ) [NegTerm]
+                                      AddopTermRepeatEmpty(
+                                      ) [AddopTermRepeatEmpty]
+                                    ) [Expr1]
+                                  ) [NormalExpr]
+                                ) [DesignatorArrElement]
+                                AssignopEqual(
+                                ) [AssignopEqual]
+                                NormalExpr(
+                                  Expr1(
+                                    NegTerm(
+                                      OptMinusEmpty(
+                                      ) [OptMinusEmpty]
+                                      Term(
+                                        FactorConstValue(
+                                          CharConstValue(
+                                           a
+                                          ) [CharConstValue]
+                                        ) [FactorConstValue]
+                                        MulopFactorRepeatEmpty(
+                                        ) [MulopFactorRepeatEmpty]
+                                      ) [Term]
+                                    ) [NegTerm]
+                                    AddopTermRepeatEmpty(
+                                    ) [AddopTermRepeatEmpty]
+                                  ) [Expr1]
+                                ) [NormalExpr]
+                              ) [DesignatorStatementAssignop]
+                            ) [StatementDesignatorStatement]
+                          ) [StatementRepeatNonEmpty]
+                          StatementDesignatorStatement(
+                            DesignatorStatementAssignop(
+                              DesignatorArrElement(
+                                DesignatorVarArr(
+                                 nizch
+                                ) [DesignatorVarArr]
+                                NormalExpr(
+                                  Expr1(
+                                    NegTerm(
+                                      OptMinusEmpty(
+                                      ) [OptMinusEmpty]
+                                      Term(
+                                        FactorDesignator(
+                                          DesignatorVar(
+                                           jedan
+                                          ) [DesignatorVar]
+                                        ) [FactorDesignator]
+                                        MulopFactorRepeatEmpty(
+                                        ) [MulopFactorRepeatEmpty]
+                                      ) [Term]
+                                    ) [NegTerm]
+                                    AddopTermRepeatEmpty(
+                                    ) [AddopTermRepeatEmpty]
+                                  ) [Expr1]
+                                ) [NormalExpr]
+                              ) [DesignatorArrElement]
+                              AssignopEqual(
+                              ) [AssignopEqual]
+                              NormalExpr(
+                                Expr1(
+                                  NegTerm(
+                                    OptMinusEmpty(
+                                    ) [OptMinusEmpty]
+                                    Term(
+                                      FactorConstValue(
+                                        CharConstValue(
+                                         b
+                                        ) [CharConstValue]
+                                      ) [FactorConstValue]
+                                      MulopFactorRepeatEmpty(
+                                      ) [MulopFactorRepeatEmpty]
+                                    ) [Term]
+                                  ) [NegTerm]
+                                  AddopTermRepeatEmpty(
+                                  ) [AddopTermRepeatEmpty]
+                                ) [Expr1]
+                              ) [NormalExpr]
+                            ) [DesignatorStatementAssignop]
+                          ) [StatementDesignatorStatement]
+                        ) [StatementRepeatNonEmpty]
+                        StatementDesignatorStatement(
+                          DesignatorStatementAssignop(
+                            DesignatorArrElement(
+                              DesignatorVarArr(
+                               nizch
+                              ) [DesignatorVarArr]
+                              NormalExpr(
+                                Expr1(
+                                  NegTerm(
+                                    OptMinusEmpty(
+                                    ) [OptMinusEmpty]
+                                    Term(
+                                      FactorDesignator(
+                                        DesignatorVar(
+                                         pet
+                                        ) [DesignatorVar]
+                                      ) [FactorDesignator]
+                                      MulopFactorRepeatEmpty(
+                                      ) [MulopFactorRepeatEmpty]
+                                    ) [Term]
+                                  ) [NegTerm]
+                                  AddopTermRepeatNonEmpty(
+                                    AddopTermRepeatEmpty(
+                                    ) [AddopTermRepeatEmpty]
+                                    AddoptSub(
+                                    ) [AddoptSub]
+                                    Term(
+                                      FactorConstValue(
+                                        NumConstValue(
+                                         3
+                                        ) [NumConstValue]
+                                      ) [FactorConstValue]
+                                      MulopFactorRepeatEmpty(
+                                      ) [MulopFactorRepeatEmpty]
+                                    ) [Term]
+                                  ) [AddopTermRepeatNonEmpty]
+                                ) [Expr1]
+                              ) [NormalExpr]
+                            ) [DesignatorArrElement]
+                            AssignopEqual(
+                            ) [AssignopEqual]
+                            NormalExpr(
+                              Expr1(
+                                NegTerm(
+                                  OptMinusEmpty(
+                                  ) [OptMinusEmpty]
+                                  Term(
+                                    FactorConstValue(
+                                      CharConstValue(
+                                       c
+                                      ) [CharConstValue]
+                                    ) [FactorConstValue]
+                                    MulopFactorRepeatEmpty(
+                                    ) [MulopFactorRepeatEmpty]
+                                  ) [Term]
+                                ) [NegTerm]
+                                AddopTermRepeatEmpty(
+                                ) [AddopTermRepeatEmpty]
+                              ) [Expr1]
+                            ) [NormalExpr]
+                          ) [DesignatorStatementAssignop]
+                        ) [StatementDesignatorStatement]
+                      ) [StatementRepeatNonEmpty]
+                      StatementPrint(
+                        NormalExpr(
+                          Expr1(
+                            NegTerm(
+                              OptMinusEmpty(
+                              ) [OptMinusEmpty]
+                              Term(
+                                FactorDesignator(
+                                  DesignatorArrElement(
+                                    DesignatorVarArr(
+                                     nizch
+                                    ) [DesignatorVarArr]
+                                    NormalExpr(
+                                      Expr1(
+                                        NegTerm(
+                                          OptMinusEmpty(
+                                          ) [OptMinusEmpty]
+                                          Term(
+                                            FactorConstValue(
+                                              NumConstValue(
+                                               1
+                                              ) [NumConstValue]
+                                            ) [FactorConstValue]
+                                            MulopFactorRepeatEmpty(
+                                            ) [MulopFactorRepeatEmpty]
+                                          ) [Term]
+                                        ) [NegTerm]
+                                        AddopTermRepeatEmpty(
+                                        ) [AddopTermRepeatEmpty]
+                                      ) [Expr1]
+                                    ) [NormalExpr]
+                                  ) [DesignatorArrElement]
+                                ) [FactorDesignator]
+                                MulopFactorRepeatEmpty(
+                                ) [MulopFactorRepeatEmpty]
+                              ) [Term]
+                            ) [NegTerm]
+                            AddopTermRepeatEmpty(
+                            ) [AddopTermRepeatEmpty]
+                          ) [Expr1]
+                        ) [NormalExpr]
+                        OptPrintWidthEmpty(
+                        ) [OptPrintWidthEmpty]
+                      ) [StatementPrint]
+                    ) [StatementRepeatNonEmpty]
+                    StatementPrint(
+                      NormalExpr(
+                        Expr1(
+                          NegTerm(
+                            OptMinusEmpty(
+                            ) [OptMinusEmpty]
+                            Term(
+                              FactorDesignator(
+                                DesignatorArrElement(
+                                  DesignatorVarArr(
+                                   nizch
+                                  ) [DesignatorVarArr]
+                                  NormalExpr(
+                                    Expr1(
+                                      NegTerm(
+                                        OptMinusEmpty(
+                                        ) [OptMinusEmpty]
+                                        Term(
+                                          FactorDesignator(
+                                            DesignatorVar(
+                                             jedan
+                                            ) [DesignatorVar]
+                                          ) [FactorDesignator]
+                                          MulopFactorRepeatNonEmpty(
+                                            MulopFactorRepeatEmpty(
+                                            ) [MulopFactorRepeatEmpty]
+                                            MulopMul(
+                                            ) [MulopMul]
+                                            FactorConstValue(
+                                              NumConstValue(
+                                               2
+                                              ) [NumConstValue]
+                                            ) [FactorConstValue]
+                                          ) [MulopFactorRepeatNonEmpty]
+                                        ) [Term]
+                                      ) [NegTerm]
+                                      AddopTermRepeatEmpty(
+                                      ) [AddopTermRepeatEmpty]
+                                    ) [Expr1]
+                                  ) [NormalExpr]
+                                ) [DesignatorArrElement]
+                              ) [FactorDesignator]
+                              MulopFactorRepeatEmpty(
+                              ) [MulopFactorRepeatEmpty]
+                            ) [Term]
+                          ) [NegTerm]
+                          AddopTermRepeatEmpty(
+                          ) [AddopTermRepeatEmpty]
+                        ) [Expr1]
+                      ) [NormalExpr]
+                      OptPrintWidthEmpty(
+                      ) [OptPrintWidthEmpty]
+                    ) [StatementPrint]
+                  ) [StatementRepeatNonEmpty]
+                  StatementDesignatorStatement(
+                    DesignatorStatementAssignop(
+                      DesignatorVar(
+                       bodovi
+                      ) [DesignatorVar]
+                      AssignopEqual(
+                      ) [AssignopEqual]
+                      NormalExpr(
+                        Expr1(
+                          NegTerm(
+                            OptMinusEmpty(
+                            ) [OptMinusEmpty]
+                            Term(
+                              FactorDesignator(
+                                DesignatorVar(
+                                 bodovi
+                                ) [DesignatorVar]
+                              ) [FactorDesignator]
+                              MulopFactorRepeatEmpty(
+                              ) [MulopFactorRepeatEmpty]
+                            ) [Term]
+                          ) [NegTerm]
+                          AddopTermRepeatNonEmpty(
+                            AddopTermRepeatNonEmpty(
+                              AddopTermRepeatEmpty(
+                              ) [AddopTermRepeatEmpty]
+                              AddopAdd(
+                              ) [AddopAdd]
+                              Term(
+                                FactorParenExpr(
+                                  NormalExpr(
+                                    Expr1(
+                                      NegTerm(
+                                        OptMinusEmpty(
+                                        ) [OptMinusEmpty]
+                                        Term(
+                                          FactorDesignator(
+                                            DesignatorVar(
+                                             pet
+                                            ) [DesignatorVar]
+                                          ) [FactorDesignator]
+                                          MulopFactorRepeatNonEmpty(
+                                            MulopFactorRepeatEmpty(
+                                            ) [MulopFactorRepeatEmpty]
+                                            MulopMul(
+                                            ) [MulopMul]
+                                            FactorDesignator(
+                                              DesignatorVar(
+                                               jedan
+                                              ) [DesignatorVar]
+                                            ) [FactorDesignator]
+                                          ) [MulopFactorRepeatNonEmpty]
+                                        ) [Term]
+                                      ) [NegTerm]
+                                      AddopTermRepeatNonEmpty(
+                                        AddopTermRepeatEmpty(
+                                        ) [AddopTermRepeatEmpty]
+                                        AddoptSub(
+                                        ) [AddoptSub]
+                                        Term(
+                                          FactorConstValue(
+                                            NumConstValue(
+                                             1
+                                            ) [NumConstValue]
+                                          ) [FactorConstValue]
+                                          MulopFactorRepeatEmpty(
+                                          ) [MulopFactorRepeatEmpty]
+                                        ) [Term]
+                                      ) [AddopTermRepeatNonEmpty]
+                                    ) [Expr1]
+                                  ) [NormalExpr]
+                                ) [FactorParenExpr]
+                                MulopFactorRepeatNonEmpty(
+                                  MulopFactorRepeatEmpty(
+                                  ) [MulopFactorRepeatEmpty]
+                                  MulopMul(
+                                  ) [MulopMul]
+                                  FactorDesignator(
+                                    DesignatorVar(
+                                     bodovi
+                                    ) [DesignatorVar]
+                                  ) [FactorDesignator]
+                                ) [MulopFactorRepeatNonEmpty]
+                              ) [Term]
+                            ) [AddopTermRepeatNonEmpty]
+                            AddoptSub(
+                            ) [AddoptSub]
+                            Term(
+                              FactorParenExpr(
+                                NormalExpr(
+                                  Expr1(
+                                    NegTerm(
+                                      OptMinusEmpty(
+                                      ) [OptMinusEmpty]
+                                      Term(
+                                        FactorConstValue(
+                                          NumConstValue(
+                                           3
+                                          ) [NumConstValue]
+                                        ) [FactorConstValue]
+                                        MulopFactorRepeatNonEmpty(
+                                          MulopFactorRepeatEmpty(
+                                          ) [MulopFactorRepeatEmpty]
+                                          MulopMod(
+                                          ) [MulopMod]
+                                          FactorConstValue(
+                                            NumConstValue(
+                                             2
+                                            ) [NumConstValue]
+                                          ) [FactorConstValue]
+                                        ) [MulopFactorRepeatNonEmpty]
+                                      ) [Term]
+                                    ) [NegTerm]
+                                    AddopTermRepeatNonEmpty(
+                                      AddopTermRepeatNonEmpty(
+                                        AddopTermRepeatEmpty(
+                                        ) [AddopTermRepeatEmpty]
+                                        AddopAdd(
+                                        ) [AddopAdd]
+                                        Term(
+                                          FactorConstValue(
+                                            NumConstValue(
+                                             3
+                                            ) [NumConstValue]
+                                          ) [FactorConstValue]
+                                          MulopFactorRepeatNonEmpty(
+                                            MulopFactorRepeatEmpty(
+                                            ) [MulopFactorRepeatEmpty]
+                                            MulopMul(
+                                            ) [MulopMul]
+                                            FactorConstValue(
+                                              NumConstValue(
+                                               2
+                                              ) [NumConstValue]
+                                            ) [FactorConstValue]
+                                          ) [MulopFactorRepeatNonEmpty]
+                                        ) [Term]
+                                      ) [AddopTermRepeatNonEmpty]
+                                      AddoptSub(
+                                      ) [AddoptSub]
+                                      Term(
+                                        FactorConstValue(
+                                          NumConstValue(
+                                           3
+                                          ) [NumConstValue]
+                                        ) [FactorConstValue]
+                                        MulopFactorRepeatEmpty(
+                                        ) [MulopFactorRepeatEmpty]
+                                      ) [Term]
+                                    ) [AddopTermRepeatNonEmpty]
+                                  ) [Expr1]
+                                ) [NormalExpr]
+                              ) [FactorParenExpr]
+                              MulopFactorRepeatEmpty(
+                              ) [MulopFactorRepeatEmpty]
+                            ) [Term]
+                          ) [AddopTermRepeatNonEmpty]
+                        ) [Expr1]
+                      ) [NormalExpr]
+                    ) [DesignatorStatementAssignop]
+                  ) [StatementDesignatorStatement]
+                ) [StatementRepeatNonEmpty]
+                StatementPrint(
+                  NormalExpr(
+                    Expr1(
+                      NegTerm(
+                        OptMinusEmpty(
+                        ) [OptMinusEmpty]
+                        Term(
+                          FactorDesignator(
+                            DesignatorVar(
+                             bodovi
+                            ) [DesignatorVar]
+                          ) [FactorDesignator]
+                          MulopFactorRepeatEmpty(
+                          ) [MulopFactorRepeatEmpty]
+                        ) [Term]
+                      ) [NegTerm]
+                      AddopTermRepeatEmpty(
+                      ) [AddopTermRepeatEmpty]
+                    ) [Expr1]
+                  ) [NormalExpr]
+                  OptPrintWidthEmpty(
+                  ) [OptPrintWidthEmpty]
+                ) [StatementPrint]
+              ) [StatementRepeatNonEmpty]
+              StatementRead(
+                DesignatorVar(
+                 bodovi
+                ) [DesignatorVar]
+              ) [StatementRead]
+            ) [StatementRepeatNonEmpty]
+            StatementDesignatorStatement(
+              DesignatorStatementAssignop(
+                DesignatorVar(
+                 bt
+                ) [DesignatorVar]
+                AssignopEqual(
+                ) [AssignopEqual]
+                NormalExpr(
+                  Expr1(
+                    NegTerm(
+                      OptMinusEmpty(
+                      ) [OptMinusEmpty]
+                      Term(
+                        FactorConstValue(
+                          BoolConstValue(
+                           true
+                          ) [BoolConstValue]
+                        ) [FactorConstValue]
+                        MulopFactorRepeatEmpty(
+                        ) [MulopFactorRepeatEmpty]
+                      ) [Term]
+                    ) [NegTerm]
+                    AddopTermRepeatEmpty(
+                    ) [AddopTermRepeatEmpty]
+                  ) [Expr1]
+                ) [NormalExpr]
+              ) [DesignatorStatementAssignop]
+            ) [StatementDesignatorStatement]
+          ) [StatementRepeatNonEmpty]
+          StatementPrint(
+            TernaryExpr(
+              CondFactSingle(
+                Expr1(
+                  NegTerm(
+                    OptMinusEmpty(
+                    ) [OptMinusEmpty]
+                    Term(
+                      FactorDesignator(
+                        DesignatorVar(
+                         bt
+                        ) [DesignatorVar]
+                      ) [FactorDesignator]
+                      MulopFactorRepeatEmpty(
+                      ) [MulopFactorRepeatEmpty]
+                    ) [Term]
+                  ) [NegTerm]
+                  AddopTermRepeatEmpty(
+                  ) [AddopTermRepeatEmpty]
+                ) [Expr1]
+              ) [CondFactSingle]
+              Expr1(
+                NegTerm(
+                  OptMinusEmpty(
+                  ) [OptMinusEmpty]
+                  Term(
+                    FactorDesignator(
+                      DesignatorVar(
+                       bodovi
+                      ) [DesignatorVar]
+                    ) [FactorDesignator]
+                    MulopFactorRepeatEmpty(
+                    ) [MulopFactorRepeatEmpty]
+                  ) [Term]
+                ) [NegTerm]
+                AddopTermRepeatEmpty(
+                ) [AddopTermRepeatEmpty]
+              ) [Expr1]
+              Colon(
+              ) [Colon]
+              Expr1(
+                NegTerm(
+                  OptMinusEmpty(
+                  ) [OptMinusEmpty]
+                  Term(
+                    FactorDesignator(
+                      DesignatorVar(
+                       bodovi
+                      ) [DesignatorVar]
+                    ) [FactorDesignator]
+                    MulopFactorRepeatEmpty(
+                    ) [MulopFactorRepeatEmpty]
+                  ) [Term]
+                ) [NegTerm]
+                AddopTermRepeatNonEmpty(
+                  AddopTermRepeatEmpty(
+                  ) [AddopTermRepeatEmpty]
+                  AddopAdd(
+                  ) [AddopAdd]
+                  Term(
+                    FactorConstValue(
+                      NumConstValue(
+                       10
+                      ) [NumConstValue]
+                    ) [FactorConstValue]
+                    MulopFactorRepeatEmpty(
+                    ) [MulopFactorRepeatEmpty]
+                  ) [Term]
+                ) [AddopTermRepeatNonEmpty]
+              ) [Expr1]
+            ) [TernaryExpr]
+            OptPrintWidthEmpty(
+            ) [OptPrintWidthEmpty]
+          ) [StatementPrint]
+        ) [StatementRepeatNonEmpty]
+        StatementPrint(
+          TernaryExpr(
+            CondFactSingle(
+              Expr1(
+                NegTerm(
+                  OptMinusEmpty(
+                  ) [OptMinusEmpty]
+                  Term(
+                    FactorConstValue(
+                      BoolConstValue(
+                       false
+                      ) [BoolConstValue]
+                    ) [FactorConstValue]
+                    MulopFactorRepeatEmpty(
+                    ) [MulopFactorRepeatEmpty]
+                  ) [Term]
+                ) [NegTerm]
+                AddopTermRepeatEmpty(
+                ) [AddopTermRepeatEmpty]
+              ) [Expr1]
+            ) [CondFactSingle]
+            Expr1(
+              NegTerm(
+                OptMinusEmpty(
+                ) [OptMinusEmpty]
+                Term(
+                  FactorDesignator(
+                    DesignatorVar(
+                     bodovi
+                    ) [DesignatorVar]
+                  ) [FactorDesignator]
+                  MulopFactorRepeatEmpty(
+                  ) [MulopFactorRepeatEmpty]
+                ) [Term]
+              ) [NegTerm]
+              AddopTermRepeatNonEmpty(
+                AddopTermRepeatEmpty(
+                ) [AddopTermRepeatEmpty]
+                AddopAdd(
+                ) [AddopAdd]
+                Term(
+                  FactorConstValue(
+                    NumConstValue(
+                     20
+                    ) [NumConstValue]
+                  ) [FactorConstValue]
+                  MulopFactorRepeatEmpty(
+                  ) [MulopFactorRepeatEmpty]
+                ) [Term]
+              ) [AddopTermRepeatNonEmpty]
+            ) [Expr1]
+            Colon(
+            ) [Colon]
+            Expr1(
+              NegTerm(
+                OptMinusEmpty(
+                ) [OptMinusEmpty]
+                Term(
+                  FactorDesignator(
+                    DesignatorVar(
+                     bodovi
+                    ) [DesignatorVar]
+                  ) [FactorDesignator]
+                  MulopFactorRepeatEmpty(
+                  ) [MulopFactorRepeatEmpty]
+                ) [Term]
+              ) [NegTerm]
+              AddopTermRepeatNonEmpty(
+                AddopTermRepeatEmpty(
+                ) [AddopTermRepeatEmpty]
+                AddopAdd(
+                ) [AddopAdd]
+                Term(
+                  FactorConstValue(
+                    NumConstValue(
+                     30
+                    ) [NumConstValue]
+                  ) [FactorConstValue]
+                  MulopFactorRepeatEmpty(
+                  ) [MulopFactorRepeatEmpty]
+                ) [Term]
+              ) [AddopTermRepeatNonEmpty]
+            ) [Expr1]
+          ) [TernaryExpr]
+          OptPrintWidthEmpty(
+          ) [OptPrintWidthEmpty]
+        ) [StatementPrint]
+      ) [StatementRepeatNonEmpty]
+      StatementPrint(
+        TernaryExpr(
+          CondFactCompare(
+            Expr1(
+              NegTerm(
+                OptMinusEmpty(
+                ) [OptMinusEmpty]
+                Term(
+                  FactorDesignator(
+                    DesignatorVar(
+                     bodovi
+                    ) [DesignatorVar]
+                  ) [FactorDesignator]
+                  MulopFactorRepeatEmpty(
+                  ) [MulopFactorRepeatEmpty]
+                ) [Term]
+              ) [NegTerm]
+              AddopTermRepeatEmpty(
+              ) [AddopTermRepeatEmpty]
+            ) [Expr1]
+            RelopGrt(
+            ) [RelopGrt]
+            Expr1(
+              NegTerm(
+                OptMinusEmpty(
+                ) [OptMinusEmpty]
+                Term(
+                  FactorConstValue(
+                    NumConstValue(
+                     10
+                    ) [NumConstValue]
+                  ) [FactorConstValue]
+                  MulopFactorRepeatEmpty(
+                  ) [MulopFactorRepeatEmpty]
+                ) [Term]
+              ) [NegTerm]
+              AddopTermRepeatEmpty(
+              ) [AddopTermRepeatEmpty]
+            ) [Expr1]
+          ) [CondFactCompare]
+          Expr1(
+            NegTerm(
+              OptMinusEmpty(
+              ) [OptMinusEmpty]
+              Term(
+                FactorConstValue(
+                  CharConstValue(
+                   +
+                  ) [CharConstValue]
+                ) [FactorConstValue]
+                MulopFactorRepeatEmpty(
+                ) [MulopFactorRepeatEmpty]
+              ) [Term]
+            ) [NegTerm]
+            AddopTermRepeatEmpty(
+            ) [AddopTermRepeatEmpty]
+          ) [Expr1]
+          Colon(
+          ) [Colon]
+          Expr1(
+            NegTerm(
+              OptMinusEmpty(
+              ) [OptMinusEmpty]
+              Term(
+                FactorParenExpr(
+                  TernaryExpr(
+                    CondFactCompare(
+                      Expr1(
+                        NegTerm(
+                          OptMinusEmpty(
+                          ) [OptMinusEmpty]
+                          Term(
+                            FactorDesignator(
+                              DesignatorVar(
+                               bodovi
+                              ) [DesignatorVar]
+                            ) [FactorDesignator]
+                            MulopFactorRepeatEmpty(
+                            ) [MulopFactorRepeatEmpty]
+                          ) [Term]
+                        ) [NegTerm]
+                        AddopTermRepeatEmpty(
+                        ) [AddopTermRepeatEmpty]
+                      ) [Expr1]
+                      RelopEquals(
+                      ) [RelopEquals]
+                      Expr1(
+                        NegTerm(
+                          OptMinusEmpty(
+                          ) [OptMinusEmpty]
+                          Term(
+                            FactorConstValue(
+                              NumConstValue(
+                               10
+                              ) [NumConstValue]
+                            ) [FactorConstValue]
+                            MulopFactorRepeatEmpty(
+                            ) [MulopFactorRepeatEmpty]
+                          ) [Term]
+                        ) [NegTerm]
+                        AddopTermRepeatEmpty(
+                        ) [AddopTermRepeatEmpty]
+                      ) [Expr1]
+                    ) [CondFactCompare]
+                    Expr1(
+                      NegTerm(
+                        OptMinusEmpty(
+                        ) [OptMinusEmpty]
+                        Term(
+                          FactorConstValue(
+                            CharConstValue(
+                             k
+                            ) [CharConstValue]
+                          ) [FactorConstValue]
+                          MulopFactorRepeatEmpty(
+                          ) [MulopFactorRepeatEmpty]
+                        ) [Term]
+                      ) [NegTerm]
+                      AddopTermRepeatEmpty(
+                      ) [AddopTermRepeatEmpty]
+                    ) [Expr1]
+                    Colon(
+                    ) [Colon]
+                    Expr1(
+                      NegTerm(
+                        OptMinusEmpty(
+                        ) [OptMinusEmpty]
+                        Term(
+                          FactorConstValue(
+                            CharConstValue(
+                             -
+                            ) [CharConstValue]
+                          ) [FactorConstValue]
+                          MulopFactorRepeatEmpty(
+                          ) [MulopFactorRepeatEmpty]
+                        ) [Term]
+                      ) [NegTerm]
+                      AddopTermRepeatEmpty(
+                      ) [AddopTermRepeatEmpty]
+                    ) [Expr1]
+                  ) [TernaryExpr]
+                ) [FactorParenExpr]
+                MulopFactorRepeatEmpty(
+                ) [MulopFactorRepeatEmpty]
+              ) [Term]
+            ) [NegTerm]
+            AddopTermRepeatEmpty(
+            ) [AddopTermRepeatEmpty]
+          ) [Expr1]
+        ) [TernaryExpr]
+        OptPrintWidthEmpty(
+        ) [OptPrintWidthEmpty]
+      ) [StatementPrint]
+    ) [StatementRepeatNonEmpty]
+  ) [MethodDecl]
+) [Program]
+INFO  14:50:25,267 - ====================== Performing Semantic Check ======================
+INFO  14:50:25,268 - Destination file already exists. Its content is being deleted.
+INFO  14:50:25,269 - ====================== Performing Code Generation ======================
+INFO  14:50:25,272 - Compilation completed successfuly!
